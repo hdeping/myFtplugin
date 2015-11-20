@@ -1,9 +1,7 @@
-#!/usr/bin/bash
-
-#echo "# myFtplugin" >> README.md
+#echo "# fortran" >> README.md
 #git init
-#git add *
-#git commit -m "vim ftplugin commit"
-#git remote add ftplugin https://github.com/hdeping/myFtplugin.git
-git add $1
-git push -u ftplugin master
+#git add README.md `find . -name "*f90"`
+#git commit -m "fortran code from 2014"
+git add *
+git commit
+git push -u plugin master

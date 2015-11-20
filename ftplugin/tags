@@ -1,0 +1,566 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-o><plug>	latex-suite/elementmacros.vim	/^imap <silent> <script> <C-o><plug> <Nop>$/;"	m
+<C-o><plug>	latex-suite/envmacros.vim	/^imap <silent> <script> <C-o><plug> <Nop>$/;"	m
+<C-o><plug>	latex-suite/main.vim	/^imap <silent> <script> <C-o><plug> <Nop>$/;"	m
+<F7>	fortran_codecomplete.vim	/^imap <F7> :python fortran_complete()<cr>A$/;"	m
+<F7>	fortran_codecomplete.vim	/^nmap <F7> :python fortran_complete()<cr>A$/;"	m
+<Plug>Tex_FastCommandChange	latex-suite/envmacros.vim	/^	inoremap <silent> <Plug>Tex_FastCommandChange  <C-O>:call Tex_ChangeCommand('no')<CR>$/;"	m
+<Plug>Tex_FastCommandChange	latex-suite/envmacros.vim	/^	nnoremap <silent> <Plug>Tex_FastCommandChange  :call Tex_ChangeCommand('no')<CR>$/;"	m
+<Plug>Tex_FastCommandInsert	latex-suite/envmacros.vim	/^	inoremap <silent> <Plug>Tex_FastCommandInsert  <C-r>=Tex_DoCommand('no')<cr>$/;"	m
+<Plug>Tex_FastCommandInsert	latex-suite/envmacros.vim	/^	nnoremap <silent> <Plug>Tex_FastCommandInsert  i<C-r>=Tex_DoCommand('no')<cr>$/;"	m
+<Plug>Tex_FastCommandInsert	latex-suite/envmacros.vim	/^	vnoremap <silent> <Plug>Tex_FastCommandInsert  <C-\\><C-N>:call Tex_DoCommand('yes')<CR>$/;"	m
+<Plug>Tex_FastEnvironmentChange	latex-suite/envmacros.vim	/^	inoremap <silent> <Plug>Tex_FastEnvironmentChange  <C-O>:call Tex_ChangeEnvironments()<CR>$/;"	m
+<Plug>Tex_FastEnvironmentChange	latex-suite/envmacros.vim	/^	nnoremap <silent> <Plug>Tex_FastEnvironmentChange  :call Tex_ChangeEnvironments()<CR>$/;"	m
+<Plug>Tex_FastEnvironmentInsert	latex-suite/envmacros.vim	/^	inoremap <silent> <Plug>Tex_FastEnvironmentInsert  <C-r>=Tex_FastEnvironmentInsert("no")<cr>$/;"	m
+<Plug>Tex_FastEnvironmentInsert	latex-suite/envmacros.vim	/^	nnoremap <silent> <Plug>Tex_FastEnvironmentInsert  i<C-r>=Tex_FastEnvironmentInsert("no")<cr>$/;"	m
+<Plug>Tex_FastEnvironmentInsert	latex-suite/envmacros.vim	/^	vnoremap <silent> <Plug>Tex_FastEnvironmentInsert  <C-\\><C-N>:call Tex_FastEnvironmentInsert("yes")<CR>$/;"	m
+<Plug>Tex_Help	latex-suite/wizardfuncs.vim	/^inoremap <silent> <Plug>Tex_Help <C-o>:call <SID>TexHelp()<CR>$/;"	m
+<Plug>Tex_Help	latex-suite/wizardfuncs.vim	/^nnoremap <silent> <Plug>Tex_Help :call <SID>TexHelp()<CR>$/;"	m
+<Plug>Tex_InsertItemOnNextLine	latex-suite/envmacros.vim	/^inoremap <script> <silent> <Plug>Tex_InsertItemOnNextLine <ESC>o<C-R>=Tex_InsertItem()<CR>$/;"	m
+<Plug>Tex_InsertItemOnThisLine	latex-suite/envmacros.vim	/^inoremap <script> <silent> <Plug>Tex_InsertItemOnThisLine <C-r>=Tex_InsertItem()<CR>$/;"	m
+<Plug>Tex_LeftRight	:call	latex-suite/brackets.vim	/^nnoremap <silent> <Plug>Tex_LeftRight	:call Tex_PutLeftRight()<CR>$/;"	m
+<Plug>Tex_LeftRight	latex-suite/brackets.vim	/^inoremap <silent> <Plug>Tex_LeftRight   <C-r>=Tex_LeftRight()<CR>$/;"	m
+<Plug>Tex_MathBF		<C-C>`>a}<Esc>`<i\mathbf{<Esc>	latex-suite/brackets.vim	/^vnoremap <silent> <Plug>Tex_MathBF		<C-C>`>a}<Esc>`<i\\mathbf{<Esc>$/;"	m
+<Plug>Tex_MathBF	latex-suite/brackets.vim	/^inoremap <silent> <Plug>Tex_MathBF      <C-r>=Tex_MathBF()<CR>$/;"	m
+<Plug>Tex_MathCal		<C-C>`>a}<Esc>`<i\mathcal{<Esc>	latex-suite/brackets.vim	/^vnoremap <silent> <Plug>Tex_MathCal		<C-C>`>a}<Esc>`<i\\mathcal{<Esc>$/;"	m
+<Plug>Tex_MathCal	latex-suite/brackets.vim	/^inoremap <silent> <Plug>Tex_MathCal     <C-r>=Tex_MathCal()<CR>$/;"	m
+<Plug>Tex_RefreshFolds	latex-suite/folding.vim	/^nnoremap <unique> <Plug>Tex_RefreshFolds :call MakeTexFolds(1)<cr>$/;"	m
+<Space>	latex-suite/smartspace.vim	/^inoremap <buffer> <silent> <Space> <Space><Esc>:call <SID>TexFill(b:tw)<CR>a$/;"	m
+<plug>	latex-suite/elementmacros.vim	/^nmap <silent> <script> <plug> i$/;"	m
+<plug>	latex-suite/envmacros.vim	/^nmap <silent> <script> <plug> i$/;"	m
+<plug>	latex-suite/main.vim	/^nmap <silent> <script> <plug> i$/;"	m
+<plug>	latex-suite/packages.vim	/^imap <silent> <plug> <Nop>$/;"	m
+<plug>	latex-suite/packages.vim	/^nmap <silent> <plug> i$/;"	m
+<plug>cleanHistory	latex-suite/main.vim	/^nmap <silent> <script> <plug>cleanHistory :call Tex_CleanSearchHistory()<CR>$/;"	m
+BibFile	latex-suite/bibtools.py	/^class BibFile:$/;"	c
+BibT	latex-suite/bibtex.vim	/^function BibT(type, options, prompt)$/;"	f
+Bibliography	latex-suite/bibtools.py	/^class Bibliography(dict):$/;"	c
+Change	latex-suite/envmacros.vim	/^	function! s:Change(env, label, delete, putInNonumber)$/;"	f
+ChangeCommand	latex-suite/envmacros.vim	/^	function! s:ChangeCommand(newcom)$/;"	f
+ChooseMacro	latex-suite/custommacros.vim	/^function! s:ChooseMacro(ask)$/;"	f
+Compute	latex-suite/templates.vim	/^function! <SID>Compute(what)$/;"	f
+DeleteMacro	latex-suite/custommacros.vim	/^function! <SID>DeleteMacro(...)$/;"	f
+EditMacro	latex-suite/custommacros.vim	/^function! <SID>EditMacro(...)$/;"	f
+Exec	latex-suite/templates.vim	/^function! <SID>Exec(what)$/;"	f
+FilterPackageMenuLHS	latex-suite/packages.vim	/^function! <SID>FilterPackageMenuLHS(command)$/;"	f
+GroupPackageMenuItems	latex-suite/packages.vim	/^function! <SID>GroupPackageMenuItems(menuList, menuName, $/;"	f
+Input	latex-suite/bibtex.vim	/^function! s:Input(prompt, ask) " {{{$/;"	f
+Introduction	latex-suite/templates/IEEEtran.tex	/^\\end{keywords}$/;"	s
+LatexSuite	latex-suite/brackets.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/compiler.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/envmacros.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/folding.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/main.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/packages.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/texproject.vim	/^augroup LatexSuite$/;"	a
+LatexSuite	latex-suite/texviewer.vim	/^augroup LatexSuite$/;"	a
+MakeTexFolds	latex-suite/folding.vim	/^function! MakeTexFolds(force)$/;"	f
+NewMacro	latex-suite/custommacros.vim	/^function! <SID>NewMacro(...)$/;"	f
+ProcessTemplate	latex-suite/templates.vim	/^function! <SID>ProcessTemplate()$/;"	f
+PromptForCommand	latex-suite/envmacros.vim	/^function! PromptForCommand(ask)$/;"	f
+PromptForEnvironment	latex-suite/envmacros.vim	/^function! PromptForEnvironment(ask)$/;"	f
+ProtectLetters	latex-suite/main.vim	/^	function! s:ProtectLetters(first, last)$/;"	f
+ReadMacro	latex-suite/custommacros.vim	/^function! <SID>ReadMacro(...)$/;"	f
+ReadTemplate	latex-suite/templates.vim	/^function! <SID>ReadTemplate(...)$/;"	f
+RedrawMacro	latex-suite/custommacros.vim	/^function! RedrawMacro()$/;"	f
+SetCustomMacrosMenu	latex-suite/custommacros.vim	/^function! <SID>SetCustomMacrosMenu()$/;"	f
+SetEnvMacrosOptions	latex-suite/envmacros.vim	/^function! <SID>SetEnvMacrosOptions()$/;"	f
+SetTeXOptions	latex-suite/main.vim	/^function! <SID>SetTeXOptions()$/;"	f
+SetTeXTarget	latex-suite/compiler.vim	/^function! SetTeXTarget(...)$/;"	f
+SetTemplateMenu	latex-suite/templates.vim	/^function! <SID>SetTemplateMenu()$/;"	f
+SetUpHotKeys	latex-suite/envmacros.vim	/^	function! <SID>SetUpHotKeys()$/;"	f
+SmartBS	latex-suite/main.vim	/^	function! s:SmartBS(pat)$/;"	f
+SmartBS_pat	latex-suite/main.vim	/^	fun! s:SmartBS_pat()$/;"	f
+SmartDots	latex-suite/main.vim	/^	function! <SID>SmartDots()$/;"	f
+StringIO	latex-suite/outline.py	/^import StringIO$/;"	i
+TBrowser_Ctags_Cmd	txt.vim	/^	let TBrowser_Ctags_Cmd = Tlist_Ctags_Cmd$/;"	v
+TCTarget	latex-suite/compiler.vim	/^com! -nargs=1 TCTarget :call Tex_SetTeXCompilerTarget('Compile', <f-args>)$/;"	c
+TClearCiteHist	latex-suite/texviewer.vim	/^com! -nargs=0 TClearCiteHist unlet! s:citeSearchHistory$/;"	c
+TCompileMainFile	latex-suite/compiler.vim	/^command! -nargs=0 TCompileMainFile let b:fragmentFile = 0$/;"	c
+TCompileThis	latex-suite/compiler.vim	/^command! -nargs=0 TCompileThis let b:fragmentFile = 1$/;"	c
+THelp	latex-suite/wizardfuncs.vim	/^command! -nargs=0 THelp call <SID>TexHelp()$/;"	c
+TLook	latex-suite/texviewer.vim	/^command -nargs=1 TLook    call Tex_Complete(<q-args>, 'tex')$/;"	c
+TLookAll	latex-suite/texviewer.vim	/^command -nargs=1 TLookAll call Tex_Complete(<q-args>, 'all')$/;"	c
+TLookBib	latex-suite/texviewer.vim	/^command -nargs=1 TLookBib call Tex_Complete(<q-args>, 'bib')$/;"	c
+TMacro	latex-suite/custommacros.vim	/^	com! -complete=custom,Tex_CompleteMacroName -nargs=? TMacro$/;"	c
+TMacro	latex-suite/custommacros.vim	/^	com! -nargs=? TMacro$/;"	c
+TMacroDelete	latex-suite/custommacros.vim	/^	com! -complete=custom,Tex_CompleteMacroName -nargs=? TMacroDelete$/;"	c
+TMacroDelete	latex-suite/custommacros.vim	/^	com! -nargs=? TMacroDelete :call <SID>DeleteMacro(<f-args>)$/;"	c
+TMacroEdit	latex-suite/custommacros.vim	/^	com! -complete=custom,Tex_CompleteMacroName -nargs=? TMacroEdit$/;"	c
+TMacroEdit	latex-suite/custommacros.vim	/^	com! -nargs=? TMacroEdit   :call <SID>EditMacro(<f-args>)$/;"	c
+TMacroNew	latex-suite/custommacros.vim	/^com! -nargs=? TMacroNew :call <SID>NewMacro(<f-args>)$/;"	c
+TPackage	latex-suite/packages.vim	/^	com! -complete=custom,Tex_CompletePackageName -nargs=* TPackage let s:retVal = Tex_pack_one(<f-args>) <bar> normal! i<C-r>=s:retVal<CR>$/;"	c
+TPackage	latex-suite/packages.vim	/^	com! -nargs=* TPackage let s:retVal = Tex_pack_one(<f-args>) <bar> normal! i<C-r>=s:retVal<CR>$/;"	c
+TPackageUpdate	latex-suite/packages.vim	/^com! -nargs=0 TPackageUpdate :silent! call Tex_pack_updateall(1)$/;"	c
+TPackageUpdateAll	latex-suite/packages.vim	/^com! -nargs=0 TPackageUpdateAll :silent! call Tex_pack_updateall(1)$/;"	c
+TPartCompile	latex-suite/compiler.vim	/^command! -nargs=0 -range=% TPartCompile :<line1>, <line2> silent! call Tex_PartCompile()$/;"	c
+TProjectEdit	latex-suite/texproject.vim	/^command! -nargs=0 TProjectEdit  :call <SID>Tex_ProjectEdit()$/;"	c
+TSection	latex-suite/wizardfuncs.vim	/^com! -nargs=? TSection call Tex_section(<f-args>)$/;"	c
+TSectionAdvanced	latex-suite/wizardfuncs.vim	/^com! -nargs=? TSectionAdvanced call Tex_section_adv(<f-args>)$/;"	c
+TTarget	latex-suite/compiler.vim	/^com! -nargs=? TTarget :call SetTeXTarget(<f-args>)$/;"	c
+TTemplate	latex-suite/templates.vim	/^	com! -complete=custom,Tex_CompleteTemplateName -nargs=? TTemplate :call <SID>ReadTemplate(<f-args>)$/;"	c
+TTemplate	latex-suite/templates.vim	/^	com! -nargs=? TTemplate :call <SID>ReadTemplate(<f-args>)$/;"	c
+TVTarget	latex-suite/compiler.vim	/^com! -nargs=1 TVTarget :call Tex_SetTeXCompilerTarget('View', <f-args>)$/;"	c
+TVersion	latex-suite/version.vim	/^com! -nargs=0 TVersion echo Tex_Version()$/;"	c
+TexFill	latex-suite/smartspace.vim	/^function! s:TexFill(width) $/;"	f
+TexFoldTextFunction	latex-suite/folding.vim	/^function! TexFoldTextFunction()$/;"	f
+TexFormatLine	latex-suite/smartspace.vim	/^function! s:TexFormatLine(width, current_line, current_column)    " {{{$/;"	f
+TexHelp	latex-suite/wizardfuncs.vim	/^function! s:TexHelp()$/;"	f
+TexQuotes	latex-suite/main.vim	/^	function! s:TexQuotes()$/;"	f
+Tex_CD	latex-suite/main.vim	/^function! Tex_CD(dirname)$/;"	f
+Tex_CatFile	latex-suite/main.vim	/^	function! Tex_CatFile(filename)$/;"	f
+Tex_ChangeCommand	latex-suite/envmacros.vim	/^	function! Tex_ChangeCommand(isvisual) $/;"	f
+Tex_ChangeEnvironments	latex-suite/envmacros.vim	/^	function! Tex_ChangeEnvironments() $/;"	f
+Tex_ChooseFile	latex-suite/main.vim	/^function! Tex_ChooseFile(dialog)$/;"	f
+Tex_ChooseFromPrompt	latex-suite/main.vim	/^function! Tex_ChooseFromPrompt(dialog, list, sep)$/;"	f
+Tex_CleanSearchHistory	latex-suite/main.vim	/^function! Tex_CleanSearchHistory()$/;"	f
+Tex_ClearDebug	latex-suite/main.vim	/^function! Tex_ClearDebug(...)$/;"	f
+Tex_CloseSmallWindows	latex-suite/texviewer.vim	/^function! Tex_CloseSmallWindows()$/;"	f
+Tex_Common	latex-suite/texviewer.vim	/^function! s:Tex_Common(path1, path2)$/;"	f
+Tex_CompileLatex	latex-suite/compiler.vim	/^function! Tex_CompileLatex()$/;"	f
+Tex_CompileMultipleTimes	latex-suite/compiler.vim	/^function! Tex_CompileMultipleTimes()$/;"	f
+Tex_Complete	latex-suite/texviewer.vim	/^function! Tex_Complete(what, where)$/;"	f
+Tex_CompleteCiteEntry	latex-suite/texviewer.vim	/^function! Tex_CompleteCiteEntry()$/;"	f
+Tex_CompleteFileName	latex-suite/texviewer.vim	/^function! Tex_CompleteFileName(filename, ext, root)$/;"	f
+Tex_CompleteMacroName	latex-suite/custommacros.vim	/^	function! Tex_CompleteMacroName(A,P,L)$/;"	f
+Tex_CompletePackageName	latex-suite/packages.vim	/^	function! Tex_CompletePackageName(A,P,L)$/;"	f
+Tex_CompleteRefCiteCustom	latex-suite/texviewer.vim	/^function! s:Tex_CompleteRefCiteCustom(type)$/;"	f
+Tex_CompleteTemplateName	latex-suite/templates.vim	/^	function! Tex_CompleteTemplateName(A,P,L)$/;"	f
+Tex_CompleteWord	latex-suite/texviewer.vim	/^function! Tex_CompleteWord(completeword, prefixlength)$/;"	f
+Tex_CounterMenus	latex-suite/elementmacros.vim	/^	function! <SID>Tex_CounterMenus(submenu, rhs)$/;"	f
+Tex_CreatePrompt	latex-suite/main.vim	/^function! Tex_CreatePrompt(promptList, cols, sep)$/;"	f
+Tex_Debug	latex-suite/main.vim	/^function! Tex_Debug(str, ...)$/;"	f
+Tex_DeleteFile	latex-suite/main.vim	/^	function! Tex_DeleteFile(filename)$/;"	f
+Tex_DimMenus	latex-suite/elementmacros.vim	/^	function! <SID>Tex_DimMenus(submenu, rhs)$/;"	f
+Tex_DisplayBibList	latex-suite/texviewer.vim	/^function! Tex_DisplayBibList()$/;"	f
+Tex_DoCommand	latex-suite/envmacros.vim	/^function! Tex_DoCommand(isvisual)$/;"	f
+Tex_DoCompletion	latex-suite/texviewer.vim	/^function! s:Tex_DoCompletion(texcommand)$/;"	f
+Tex_DoEnvironment	latex-suite/envmacros.vim	/^function! Tex_DoEnvironment(...)$/;"	f
+Tex_EchoBibShortcuts	latex-suite/texviewer.vim	/^function! Tex_EchoBibShortcuts()$/;"	f
+Tex_EnvMacros	latex-suite/envmacros.vim	/^function! <SID>Tex_EnvMacros(lhs, submenu, name)$/;"	f
+Tex_EscapeForGrep	latex-suite/main.vim	/^function! Tex_EscapeForGrep(string)$/;"	f
+Tex_EscapeSpaces	latex-suite/main.vim	/^function! Tex_EscapeSpaces(path)$/;"	f
+Tex_FastEnvironmentInsert	latex-suite/envmacros.vim	/^	function! Tex_FastEnvironmentInsert(isvisual)$/;"	f
+Tex_FindBibFiles	latex-suite/texviewer.vim	/^function! Tex_FindBibFiles()$/;"	f
+Tex_FindFile	latex-suite/main.vim	/^function! Tex_FindFile(fname, path, suffixesadd)$/;"	f
+Tex_FindInRtp	latex-suite/main.vim	/^function! Tex_FindInRtp(filename, directory, ...)$/;"	f
+Tex_FinishOutlineCompletion	latex-suite/texviewer.vim	/^function! Tex_FinishOutlineCompletion()$/;"	f
+Tex_FoldSections	latex-suite/folding.vim	/^function! Tex_FoldSections(lst, endpat)$/;"	f
+Tex_FontDiacritics	latex-suite/elementmacros.vim	/^	function! <SID>Tex_FontDiacritics(name, rhs)$/;"	f
+Tex_FontFamily	latex-suite/elementmacros.vim	/^	function! <SID>Tex_FontFamily(font,fam)$/;"	f
+Tex_FontSize	latex-suite/elementmacros.vim	/^	function! <SID>Tex_FontSize(name)$/;"	f
+Tex_Fontfont	latex-suite/elementmacros.vim	/^	function! <SID>Tex_Fontfont(desc, lhs)$/;"	f
+Tex_ForwardSearchLaTeX	latex-suite/compiler.vim	/^function! Tex_ForwardSearchLaTeX()$/;"	f
+Tex_GetAuxFile	latex-suite/compiler.vim	/^function! Tex_GetAuxFile(auxFile)$/;"	f
+Tex_GetCurrentEnv	latex-suite/envmacros.vim	/^function! Tex_GetCurrentEnv()$/;"	f
+Tex_GetErrorList	latex-suite/main.vim	/^function! Tex_GetErrorList()$/;"	f
+Tex_GetMainFileName	latex-suite/main.vim	/^function! Tex_GetMainFileName(...)$/;"	f
+Tex_GetPos	latex-suite/main.vim	/^function! Tex_GetPos()$/;"	f
+Tex_GetTempName	latex-suite/main.vim	/^function! Tex_GetTempName(dirname)$/;"	f
+Tex_GetVarValue	latex-suite/main.vim	/^function! Tex_GetVarValue(varname, ...)$/;"	f
+Tex_GoToLocation	latex-suite/texviewer.vim	/^function! s:Tex_GoToLocation()$/;"	f
+Tex_GotoErrorLocation	latex-suite/compiler.vim	/^function! Tex_GotoErrorLocation(filename)$/;"	f
+Tex_GotoTempFile	latex-suite/main.vim	/^function! Tex_GotoTempFile()$/;"	f
+Tex_Grep	latex-suite/main.vim	/^function! Tex_Grep(string, where)$/;"	f
+Tex_GrepHelper	latex-suite/texviewer.vim	/^function! Tex_GrepHelper(prefix, what)$/;"	f
+Tex_Grepadd	latex-suite/main.vim	/^function! Tex_Grepadd(string, where)$/;"	f
+Tex_HandleBibShortcuts	latex-suite/texviewer.vim	/^function! Tex_HandleBibShortcuts(command)$/;"	f
+Tex_IncrementNumber	latex-suite/main.vim	/^function! Tex_IncrementNumber(increm)$/;"	f
+Tex_InsSecAdv	latex-suite/wizardfuncs.vim	/^function! Tex_InsSecAdv(structure)$/;"	f
+Tex_InsertItem	latex-suite/envmacros.vim	/^function! Tex_InsertItem()$/;"	f
+Tex_IsPresentInFile	latex-suite/main.vim	/^	function! Tex_IsPresentInFile(regexp, filename)$/;"	f
+Tex_LeftRight	latex-suite/brackets.vim	/^function! Tex_LeftRight()$/;"	f
+Tex_MakeMap	latex-suite/main.vim	/^function! Tex_MakeMap(lhs, rhs, mode, extraargs)$/;"	f
+Tex_MakeSubmenu	latex-suite/packages.vim	/^function! Tex_MakeSubmenu(menuList, mainMenuName, $/;"	f
+Tex_MathBF	latex-suite/brackets.vim	/^function! Tex_MathBF()$/;"	f
+Tex_MathCal	latex-suite/brackets.vim	/^function! Tex_MathCal()$/;"	f
+Tex_MathMenuRemove	latex-suite/mathmacros-utf.vim	/^function! Tex_MathMenuRemove()$/;"	f
+Tex_MathMenuRemove	latex-suite/mathmacros.vim	/^function! Tex_MathMenuRemove()$/;"	f
+Tex_MenuConfigure	latex-suite/texmenuconf.vim	/^function! Tex_MenuConfigure(type, action) " {{{$/;"	f
+Tex_NormalizePath	latex-suite/texviewer.vim	/^function! Tex_NormalizePath(path)$/;"	f
+Tex_PartCompile	latex-suite/compiler.vim	/^function! Tex_PartCompile() range$/;"	f
+Tex_PositionPreviewWindow	latex-suite/compiler.vim	/^function! Tex_PositionPreviewWindow(filename)$/;"	f
+Tex_PrintDebug	latex-suite/main.vim	/^function! Tex_PrintDebug(...)$/;"	f
+Tex_ProcessPackageCommand	latex-suite/packages.vim	/^function! Tex_ProcessPackageCommand(command)$/;"	f
+Tex_ProjectEdit	latex-suite/texproject.vim	/^function! s:Tex_ProjectEdit()$/;"	f
+Tex_ProjectLoad	latex-suite/texproject.vim	/^function! Tex_ProjectLoad()$/;"	f
+Tex_PromptForCompletion	latex-suite/texviewer.vim	/^function! s:Tex_PromptForCompletion(texcommand,ask)$/;"	f
+Tex_PutCommand	latex-suite/envmacros.vim	/^function! Tex_PutCommand(com, isvisual)$/;"	f
+Tex_PutEnvironment	latex-suite/envmacros.vim	/^function! Tex_PutEnvironment(env)$/;"	f
+Tex_PutLeftRight	latex-suite/brackets.vim	/^function! Tex_PutLeftRight()$/;"	f
+Tex_RelPath	latex-suite/texviewer.vim	/^function! Tex_RelPath(explfilename,texfilename)$/;"	f
+Tex_RemoveElementMenus	latex-suite/elementmacros.vim	/^	function! Tex_RemoveElementMenus()$/;"	f
+Tex_RemoveTempFiles	latex-suite/compiler.vim	/^function! Tex_RemoveTempFiles()$/;"	f
+Tex_ResetIncrementNumber	latex-suite/main.vim	/^function! Tex_ResetIncrementNumber(val)$/;"	f
+Tex_RunLaTeX	latex-suite/compiler.vim	/^function! Tex_RunLaTeX()$/;"	f
+Tex_ScanFileForCite	latex-suite/texviewer.vim	/^function! Tex_ScanFileForCite(prefix)$/;"	f
+Tex_ScanFileForLabels	latex-suite/texviewer.vim	/^function! Tex_ScanFileForLabels(prefix)$/;"	f
+Tex_ScanForPackages	latex-suite/packages.vim	/^function! Tex_ScanForPackages(...)$/;"	f
+Tex_SectionMacros	latex-suite/envmacros.vim	/^function! <SID>Tex_SectionMacros(lhs, name)$/;"	f
+Tex_SetBracketingMaps	latex-suite/brackets.vim	/^function! <SID>Tex_SetBracketingMaps()$/;"	f
+Tex_SetCompilerMaps	latex-suite/compiler.vim	/^function! <SID>Tex_SetCompilerMaps()$/;"	f
+Tex_SetFastCommandMaps	latex-suite/envmacros.vim	/^function! Tex_SetFastCommandMaps()$/;"	f
+Tex_SetFastEnvironmentMaps	latex-suite/envmacros.vim	/^function! Tex_SetFastEnvironmentMaps()$/;"	f
+Tex_SetFoldOptions	latex-suite/folding.vim	/^function! Tex_SetFoldOptions()$/;"	f
+Tex_SetItemMaps	latex-suite/envmacros.vim	/^function! Tex_SetItemMaps()$/;"	f
+Tex_SetPos	latex-suite/main.vim	/^function! Tex_SetPos(pos)$/;"	f
+Tex_SetTeXCompilerTarget	latex-suite/compiler.vim	/^function! Tex_SetTeXCompilerTarget(type, target)$/;"	f
+Tex_SetTexViewerMaps	latex-suite/texviewer.vim	/^function! Tex_SetTexViewerMaps()$/;"	f
+Tex_SetupBibSyntax	latex-suite/texviewer.vim	/^function! Tex_SetupBibSyntax()$/;"	f
+Tex_SetupCWindow	latex-suite/texviewer.vim	/^function! s:Tex_SetupCWindow(...)$/;"	f
+Tex_SetupErrorWindow	latex-suite/compiler.vim	/^function! Tex_SetupErrorWindow()$/;"	f
+Tex_SetupFileCompletion	latex-suite/texviewer.vim	/^function! Tex_SetupFileCompletion(accept, reject, ext, dir, root)$/;"	f
+Tex_SetupOutlineSyntax	latex-suite/texviewer.vim	/^function! Tex_SetupOutlineSyntax()$/;"	f
+Tex_ShowVariableValue	latex-suite/main.vim	/^function! Tex_ShowVariableValue(...)$/;"	f
+Tex_SpecialMacros	latex-suite/envmacros.vim	/^function! <SID>Tex_SpecialMacros(lhs, submenu, name, irhs, ...)$/;"	f
+Tex_StartCiteCompletion	latex-suite/texviewer.vim	/^function! Tex_StartCiteCompletion()$/;"	f
+Tex_StartOutlineCompletion	latex-suite/texviewer.vim	/^function! Tex_StartOutlineCompletion()$/;"	f
+Tex_Stringformat	latex-suite/compiler.vim	/^function! Tex_Stringformat(fmt, ...)$/;"	f
+Tex_Strntok	latex-suite/main.vim	/^fun! Tex_Strntok(s, tok, n)$/;"	f
+Tex_SwitchToInsertMode	latex-suite/texviewer.vim	/^function! Tex_SwitchToInsertMode()$/;"	f
+Tex_SyncPreviewWindow	latex-suite/texviewer.vim	/^function! s:Tex_SyncPreviewWindow()$/;"	f
+Tex_UpdatePreviewWindow	latex-suite/compiler.vim	/^function! Tex_UpdatePreviewWindow(filename)$/;"	f
+Tex_VariousMenus	latex-suite/elementmacros.vim	/^	function! <SID>Tex_VariousMenus(desc, lhs)$/;"	f
+Tex_Version	latex-suite/version.vim	/^function! Tex_Version()$/;"	f
+Tex_ViewLaTeX	latex-suite/compiler.vim	/^function! Tex_ViewLaTeX()$/;"	f
+Tex_VisSecAdv	latex-suite/wizardfuncs.vim	/^function! Tex_VisSecAdv(section)$/;"	f
+Tex_description	latex-suite/envmacros.vim	/^function! Tex_description(env)$/;"	f
+Tex_document	latex-suite/envmacros.vim	/^function! Tex_document(env)$/;"	f
+Tex_eqnarray	latex-suite/envmacros.vim	/^function! Tex_eqnarray(env)$/;"	f
+Tex_figure	latex-suite/envmacros.vim	/^function! Tex_figure(env)$/;"	f
+Tex_itemize	latex-suite/envmacros.vim	/^function! Tex_itemize(env)$/;"	f
+Tex_list	latex-suite/envmacros.vim	/^function! Tex_list(env)$/;"	f
+Tex_minipage	latex-suite/envmacros.vim	/^function! Tex_minipage(env)$/;"	f
+Tex_pack	latex-suite/packages.vim	/^function! Tex_pack(pack)$/;"	f
+Tex_pack_check	latex-suite/packages.vim	/^function! Tex_pack_check(package)$/;"	f
+Tex_pack_one	latex-suite/packages.vim	/^function! Tex_pack_one(...)$/;"	f
+Tex_pack_supp_menu	latex-suite/packages.vim	/^function! Tex_pack_supp_menu()$/;"	f
+Tex_pack_uncheck	latex-suite/packages.vim	/^function! Tex_pack_uncheck(package)$/;"	f
+Tex_pack_updateall	latex-suite/packages.vim	/^function! Tex_pack_updateall(force)$/;"	f
+Tex_package_from_line	latex-suite/envmacros.vim	/^	function! Tex_package_from_line()$/;"	f
+Tex_section	latex-suite/wizardfuncs.vim	/^function! Tex_section(...) "{{{$/;"	f
+Tex_section_adv	latex-suite/wizardfuncs.vim	/^function! Tex_section_adv(...) "{{{$/;"	f
+Tex_section_call	latex-suite/wizardfuncs.vim	/^function! s:Tex_section_call(section_name) "{{{$/;"	f
+Tex_section_curr_rel_value	latex-suite/wizardfuncs.vim	/^function! s:Tex_section_curr_rel_value(sec_arg, last_section_value) "{{{$/;"	f
+Tex_section_curr_value	latex-suite/wizardfuncs.vim	/^function! s:Tex_section_curr_value(sec_arg) "{{{$/;"	f
+Tex_section_detection	latex-suite/wizardfuncs.vim	/^function! s:Tex_section_detection() "{{{$/;"	f
+Tex_section_name	latex-suite/wizardfuncs.vim	/^function! s:Tex_section_name(section_value) "{{{$/;"	f
+Tex_shortcuts	latex-suite/wizardfuncs.vim	/^function! Tex_shortcuts(...)$/;"	f
+Tex_table	latex-suite/envmacros.vim	/^function! Tex_table(env)$/;"	f
+Tex_tabular	latex-suite/envmacros.vim	/^function! Tex_tabular(env)$/;"	f
+Tex_thebibliography	latex-suite/envmacros.vim	/^function! Tex_thebibliography(env)$/;"	f
+Tlist_Ctags_Cmd	latex-suite/main.vim	/^		let Tlist_Ctags_Cmd = s:tex_ctags ." --langdef=tex --langmap=tex:.tex.ltx.latex"$/;"	v
+Tlist_Ctags_Cmd	txt.vim	/^let Tlist_Ctags_Cmd = TBrowser_Ctags_Cmd . s:TBrowser_Config$/;"	v
+Tshortcuts	latex-suite/wizardfuncs.vim	/^command! -nargs=? Tshortcuts call Tex_shortcuts(<f-args>)<CR>$/;"	c
+TxtBrowser_Title_Level	txt.vim	/^	let TxtBrowser_Title_Level = 3$/;"	v
+__getitem__	latex-suite/bibtools.py	/^    def __getitem__(self, key):$/;"	m	class:Bibliography	file:
+__init__	latex-suite/bibtools.py	/^    def __init__(self, filelist=''):$/;"	m	class:BibFile
+__init__	latex-suite/bibtools.py	/^    def __init__(self, txt, macros={}):$/;"	m	class:Bibliography
+__str__	latex-suite/bibtools.py	/^    def __str__(self):$/;"	m	class:BibFile	file:
+__str__	latex-suite/bibtools.py	/^    def __str__(self):$/;"	m	class:Bibliography	file:
+addFileNameAndNumber	latex-suite/outline.py	/^def addFileNameAndNumber(lines):$/;"	f
+addfile	latex-suite/bibtools.py	/^    def addfile(self, file):$/;"	m	class:BibFile
+addfilter	latex-suite/bibtools.py	/^    def addfilter(self, filterspec):$/;"	m	class:BibFile
+addsortfield	latex-suite/bibtools.py	/^    def addsortfield(self, field):$/;"	m	class:BibFile
+b:DoubleDollars	latex-suite/envmacros.vim	/^	let b:DoubleDollars = 0$/;"	v
+b:did_brackets	latex-suite/brackets.vim	/^let b:did_brackets = 1$/;"	v
+b:done_smartspace	latex-suite/smartspace.vim	/^let b:done_smartspace = 1$/;"	v
+b:tw	latex-suite/smartspace.vim	/^let b:tw = &l:tw$/;"	v
+bf	latex-suite/bibtools.py	/^    bf = BibFile(sys.argv[1])$/;"	v	class:BibFile
+catFile	latex-suite/pytools.py	/^def catFile(filename):$/;"	f
+cmpfun	latex-suite/bibtools.py	/^        def cmpfun(b1, b2):$/;"	f	function:BibFile.sort
+deleteFile	latex-suite/pytools.py	/^def deleteFile(filepattern):$/;"	f
+g:Tex_Debug	latex-suite/main.vim	/^	let g:Tex_Debug = 0$/;"	v
+g:Tex_ElementsMenuLocation	latex-suite/texmenuconf.vim	/^	let g:Tex_ElementsMenuLocation = (g:Tex_NextMenuLocation).'.20 '.g:Tex_MenuPrefix$/;"	v
+g:Tex_ElementsMenuLocation	latex-suite/texmenuconf.vim	/^	let g:Tex_ElementsMenuLocation = (g:Tex_NextMenuLocation).'.20 '.g:Tex_MenuPrefix.'E&lements.'$/;"	v
+g:Tex_EnvMenuLocation	latex-suite/texmenuconf.vim	/^let g:Tex_EnvMenuLocation = (g:Tex_NextMenuLocation).'.20 '.g:Tex_MenuPrefix.'E&nvironments.'$/;"	v
+g:Tex_MacrosMenuLocation	latex-suite/texmenuconf.vim	/^let g:Tex_MacrosMenuLocation = g:Tex_MainMenuLocation.'.20 '.s:mainmenuname.'&Macros.'$/;"	v
+g:Tex_NextMenuLocation	latex-suite/mathmacros.vim	/^let g:Tex_NextMenuLocation = g:Tex_NextMenuLocation + 1$/;"	v
+g:Tex_NextMenuLocation	latex-suite/texmenuconf.vim	/^	let g:Tex_NextMenuLocation = g:Tex_NextMenuLocation + 1$/;"	v
+g:Tex_NextMenuLocation	latex-suite/texmenuconf.vim	/^let g:Tex_NextMenuLocation = g:Tex_MainMenuLocation$/;"	v
+g:Tex_NextMenuLocation	latex-suite/texmenuconf.vim	/^let g:Tex_NextMenuLocation = g:Tex_NextMenuLocation + 1$/;"	v
+g:Tex_PackagesMenuLocation	latex-suite/texmenuconf.vim	/^	let g:Tex_PackagesMenuLocation = (g:Tex_MainMenuLocation).'.10 '.s:mainmenuname.'&Packages.'$/;"	v
+g:Tex_PackagesMenuLocation	latex-suite/texmenuconf.vim	/^	let g:Tex_PackagesMenuLocation = (g:Tex_NextMenuLocation).'.10 '.g:Tex_MenuPrefix.'Packages.'$/;"	v
+g:Tex_PromptedCommandsDefault	latex-suite/packages.vim	/^let g:Tex_PromptedCommandsDefault = g:Tex_PromptedCommands$/;"	v
+g:Tex_PromptedEnvironmentsDefault	latex-suite/packages.vim	/^let g:Tex_PromptedEnvironmentsDefault = g:Tex_PromptedEnvironments$/;"	v
+g:Tex_TemplatesMenuLocation	latex-suite/texmenuconf.vim	/^let g:Tex_TemplatesMenuLocation = g:Tex_MainMenuLocation.'.20 '.s:mainmenuname.'&Templates.'$/;"	v
+g:Tex_completion_addcontentsline	latex-suite/texviewer.vim	/^let g:Tex_completion_addcontentsline = 'lof}{figure}{,lot}{table}{,toc}{chapter}{,toc}{part}{,'.$/;"	v
+g:Tex_completion_addtocontents	latex-suite/texviewer.vim	/^let g:Tex_completion_addtocontents = 'lof}{,lot}{,toc}{'$/;"	v
+g:Tex_completion_bibliographystyle	latex-suite/texviewer.vim	/^let g:Tex_completion_bibliographystyle = 'abbr,alpha,plain,unsrt'$/;"	v
+g:Tex_completion_explorer	latex-suite/main.vim	/^let g:Tex_completion_explorer = ','$/;"	v
+g:Tex_package_detected	latex-suite/packages.vim	/^let g:Tex_package_detected = ''$/;"	v
+g:Tex_package_supported	latex-suite/packages.vim	/^let g:Tex_package_supported = ''$/;"	v
+g:environmentshortcuts	latex-suite/wizardfuncs.vim	/^let g:environmentshortcuts = ''$/;"	v
+g:fontshortcuts	latex-suite/wizardfuncs.vim	/^let g:fontshortcuts = ''$/;"	v
+g:generalshortcuts	latex-suite/wizardfuncs.vim	/^let g:generalshortcuts = ''$/;"	v
+g:mathshortcuts	latex-suite/wizardfuncs.vim	/^let g:mathshortcuts = ''$/;"	v
+g:sectionshortcuts	latex-suite/wizardfuncs.vim	/^let g:sectionshortcuts = ''$/;"	v
+g:tex_flavor	tex.vim	/^let g:tex_flavor='latex'$/;"	v
+g:tlist_tex_settings	latex-suite/main.vim	/^		let g:tlist_tex_settings = 'tex;s:section;c:chapter;l:label;r:ref'$/;"	v
+getFileContents	latex-suite/outline.py	/^def getFileContents(fname):$/;"	f
+getSectionLabels	latex-suite/outline.py	/^def getSectionLabels(lineinfo,$/;"	f
+getSectionLabels_Root	latex-suite/outline.py	/^def getSectionLabels_Root(lineinfo, section_prefix, label_prefix):$/;"	f
+glob	latex-suite/pytools.py	/^import glob$/;"	i
+isPresentInFile	latex-suite/pytools.py	/^def isPresentInFile(regexp, filename):$/;"	f
+loaded_taglist	txt.vim	/^	let loaded_taglist = 'no'$/;"	v
+main	latex-suite/outline.py	/^def main(fname, label_prefix):$/;"	f
+os	latex-suite/outline.py	/^import os$/;"	i
+os	latex-suite/pytools.py	/^import os$/;"	i
+prefix	latex-suite/outline.py	/^        prefix = ''$/;"	v
+prefix	latex-suite/outline.py	/^        prefix = sys.argv[2]$/;"	v
+re	fortran_codecomplete.vim	/^import re$/;"	m
+re	latex-suite/bibtools.py	/^import re$/;"	i
+re	latex-suite/outline.py	/^import re$/;"	i
+re	latex-suite/pytools.py	/^import re$/;"	i
+rmfilters	latex-suite/bibtools.py	/^    def rmfilters(self):$/;"	m	class:BibFile
+rmsortfields	latex-suite/bibtools.py	/^    def rmsortfields(self):$/;"	m	class:BibFile
+s:	latex-suite/bibtex.vim	/^let s:{'article'}_optional1="vnpm"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'article'}_optional2="z" " z is note$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'article'}_required="atjy"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'article'}_retval = '@ARTICLE{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'book'}_extras="k" " isbn$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'book'}_optional1="wd"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'book'}_optional2="vnsmz" " w is address, d is edition$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'book'}_required="aetqy" " requires author *or* editor$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'book'}_retval = '@BOOK{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'booklet'}_optional1="ahy"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'booklet'}_optional2="wmz" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'booklet'}_required="t"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'booklet'}_retval = '@BOOKLET{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'conference'}_extras="k" " isbn$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'conference'}_optional1="epwoq" " w is address, q is publisher$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'conference'}_optional2="vnsmz"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'conference'}_required="atby" " b is booktitle$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'conference'}_retval = '@CONFERENCE{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inbook'}_extras="k" " isbn$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inbook'}_optional1="w" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inbook'}_optional2="vnsudmz" " d is edition$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inbook'}_required="aetcpqy"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inbook'}_retval = '@INBOOK{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'incollection'}_extras="k" " isbn$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'incollection'}_optional1="cpw" " w is address, c is chapter$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'incollection'}_optional2="evnsudmz" " d is edition$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'incollection'}_required="atbqy" " b is booktitle$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'incollection'}_retval = '@INCOLLECTION{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inproceedings'}_extras="k" " isbn$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inproceedings'}_optional1="epwoq" " w is address, q is publisher$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inproceedings'}_optional2="vnsmz"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inproceedings'}_required="atby" " b is booktitle$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'inproceedings'}_retval = '@INPROCEEDINGS{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'manual'}_optional1="ow"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'manual'}_optional2="admyz" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'manual'}_required="t"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'manual'}_retval = '@MANUAL{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'misc'}_optional1="ath"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'misc'}_optional2="myz"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'misc'}_required=""$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'misc'}_retval = '@MISC{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'msthesis'}_optional1="w" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'msthesis'}_optional2="umz" " u is type, w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'msthesis'}_required="atry" " r is school$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'msthesis'}_retval = '@MASTERSTHESIS{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'phdthesis'}_optional1="w" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'phdthesis'}_optional2="umz" " u is type$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'phdthesis'}_required="atry" " r is school$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'phdthesis'}_retval = '@PHDTHESIS{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'proceedings'}_optional1="ewo" " w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'proceedings'}_optional2="vnsmqz" " q is publisher$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'proceedings'}_required="ty"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'proceedings'}_retval = '@PROCEEDINGS{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'techreport'}_optional1="unw" " u is type, w is address$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'techreport'}_optional2="mz"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'techreport'}_required="atiy"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'techreport'}_retval = '@TECHREPORT{' . s:key . ','."\\n"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'unpublished'}_optional1="y"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'unpublished'}_optional2="m"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'unpublished'}_required="atz"$/;"	v
+s:	latex-suite/bibtex.vim	/^let s:{'unpublished'}_retval = '@UNPUBLISHED{' . s:key . ','."\\n"$/;"	v
+s:CommandSpec_	latex-suite/packages.vim	/^let s:CommandSpec_    = '\\<+replace+>'$/;"	v
+s:CommandSpec_bra	latex-suite/packages.vim	/^let s:CommandSpec_bra = '\\<+replace+>{<++>}<++>'$/;"	v
+s:CommandSpec_brd	latex-suite/packages.vim	/^let s:CommandSpec_brd = '\\<+replace+>{<++>}{<++>}<++>'$/;"	v
+s:CommandSpec_brs	latex-suite/packages.vim	/^let s:CommandSpec_brs = '\\<+replace+><++>'$/;"	v
+s:CommandSpec_eno	latex-suite/packages.vim	/^let s:CommandSpec_eno = '\\begin[<++>]{<+replace+>}'."\\<CR><++>\\<CR>".'\\end{<+replace+>}'$/;"	v
+s:CommandSpec_ens	latex-suite/packages.vim	/^let s:CommandSpec_ens = '\\begin{<+replace+>}<+extra+>'."\\<CR><++>\\<CR>".'\\end{<+replace+>}<++>'$/;"	v
+s:CommandSpec_env	latex-suite/packages.vim	/^let s:CommandSpec_env = '\\begin{<+replace+>}'."\\<CR><++>\\<CR>".'\\end{<+replace+>}<++>'$/;"	v
+s:CommandSpec_nob	latex-suite/packages.vim	/^let s:CommandSpec_nob = '\\<+replace+>[<++>]{<++>}{<++>}<++>'$/;"	v
+s:CommandSpec_noo	latex-suite/packages.vim	/^let s:CommandSpec_noo = '\\<+replace+>[<++>]'$/;"	v
+s:CommandSpec_nor	latex-suite/packages.vim	/^let s:CommandSpec_nor = '\\<+replace+>'$/;"	v
+s:CommandSpec_spe	latex-suite/packages.vim	/^let s:CommandSpec_spe = '<+replace+>'$/;"	v
+s:MathMenuName	latex-suite/mathmacros-utf.vim	/^let s:MathMenuName = g:Tex_MenuPrefix.'Ma&th.'$/;"	v
+s:MathMenuName	latex-suite/mathmacros.vim	/^let s:MathMenuName = g:Tex_MenuPrefix.'&Math.'$/;"	v
+s:MenuLHS_	latex-suite/packages.vim	/^let s:MenuLHS_    = '\\\\&<+replace+>'$/;"	v
+s:MenuLHS_bra	latex-suite/packages.vim	/^let s:MenuLHS_bra = '\\\\&<+replace+>{}'$/;"	v
+s:MenuLHS_brd	latex-suite/packages.vim	/^let s:MenuLHS_brd = '\\\\&<+replace+>{}{}'$/;"	v
+s:MenuLHS_brs	latex-suite/packages.vim	/^let s:MenuLHS_brs = '\\\\&<+replace+>{}'$/;"	v
+s:MenuLHS_eno	latex-suite/packages.vim	/^let s:MenuLHS_eno = '&<+replace+>\\ (E)'$/;"	v
+s:MenuLHS_ens	latex-suite/packages.vim	/^let s:MenuLHS_ens = '&<+replace+>\\ (E)'$/;"	v
+s:MenuLHS_env	latex-suite/packages.vim	/^let s:MenuLHS_env = '&<+replace+>\\ (E)'$/;"	v
+s:MenuLHS_nob	latex-suite/packages.vim	/^let s:MenuLHS_nob = '\\\\&<+replace+>[]{}{}'$/;"	v
+s:MenuLHS_noo	latex-suite/packages.vim	/^let s:MenuLHS_noo = '\\\\&<+replace+>[]'$/;"	v
+s:MenuLHS_nor	latex-suite/packages.vim	/^let s:MenuLHS_nor = '\\\\&<+replace+>'$/;"	v
+s:MenuLHS_sep	latex-suite/packages.vim	/^let s:MenuLHS_sep = '-sep<+replace+>-'$/;"	v
+s:MenuLHS_spe	latex-suite/packages.vim	/^let s:MenuLHS_spe = '&<+replace+>'$/;"	v
+s:TBrowser_Config	txt.vim	/^		let s:TBrowser_Config = iconv(s:TBrowser_Config, 'utf8', &fenc)$/;"	v
+s:TBrowser_Config	txt.vim	/^	let s:TBrowser_Config .= '--regex-txt="\/^(([0-9]+\\.){1}([0-9]+\\.?)[ \\t]+)(.+$)\/.   \\1\\4\/c,content\/" '$/;"	v
+s:TBrowser_Config	txt.vim	/^	let s:TBrowser_Config .= '--regex-txt="\/^(([0-9]+\\.){2}([0-9]+\\.?)[ \\t]+)(.+$)\/.       \\1\\4\/c,content\/" '$/;"	v
+s:TBrowser_Config	txt.vim	/^	let s:TBrowser_Config .= '--regex-txt="\/^(([0-9]+\\.){3}([0-9]+\\.?)[ \\t]+)(.+$)\/.           \\1\\4\/c,content\/" '$/;"	v
+s:TBrowser_Config	txt.vim	/^	let s:TBrowser_Config .= '--regex-txt="\/^[ \\t]*(图[ \\t]*[0-9a-zA-Z]+[.: ][ \\t]*.+$)\/\\1\/f,figures\/i" '$/;"	v
+s:TBrowser_Config	txt.vim	/^	let s:TBrowser_Config .= '--regex-txt="\/^[ \\t]*(表[ \\t]*[0-9a-zA-Z]+[.: ][ \\t]*.+$)\/\\1\/t,tables\/i" '$/;"	v
+s:TBrowser_Config	txt.vim	/^let s:TBrowser_Config .= '--regex-txt="\/^([0-9]+\\.?[ \\t]+)(.+$)\/\\1\\2\/c,content\/" '$/;"	v
+s:TBrowser_Config	txt.vim	/^let s:TBrowser_Config .= '--regex-txt="\/^[ \\t]+(figure[ \\t]+[0-9a-zA-Z]+([.: ]([ \\t]*.+)?)?$)\/\\1\/f,figures\/i" '$/;"	v
+s:TBrowser_Config	txt.vim	/^let s:TBrowser_Config .= '--regex-txt="\/^[ \\t]+(table[ \\t]+[0-9a-zA-Z]+([.: ]([ \\t]*.+)?)?$)\/\\1\/t,tables\/i" '$/;"	v
+s:TBrowser_Config	txt.vim	/^let s:TBrowser_Config = ' --langdef=txt --langmap=txt:.txt '$/;"	v
+s:a_standsfor	latex-suite/bibtex.vim	/^let s:a_standsfor = 'author'$/;"	v
+s:array	latex-suite/envmacros.vim	/^let s:array =      "\\\\left<++>\\<cr>\\\\begin{array}{<+dimension+>}\\<cr><+elements+>\\<cr>\\\\end{array}\\<cr>\\\\right<++>"$/;"	v
+s:b_standsfor	latex-suite/bibtex.vim	/^let s:b_standsfor = 'booktitle'$/;"	v
+s:c_standsfor	latex-suite/bibtex.vim	/^let s:c_standsfor = 'chapter'$/;"	v
+s:counterMenuLoc	latex-suite/elementmacros.vim	/^let s:counterMenuLoc    = g:Tex_ElementsMenuLocation.'Counters.'$/;"	v
+s:cpo_save	txt.vim	/^let s:cpo_save = &cpo$/;"	v
+s:d_standsfor	latex-suite/bibtex.vim	/^let s:d_standsfor = 'edition'$/;"	v
+s:definedFuncs	latex-suite/elementmacros.vim	/^	let s:definedFuncs = 1$/;"	v
+s:description	latex-suite/envmacros.vim	/^let s:description ="\\\\begin{description}\\<cr>\\\\item[<+label+>]<++>\\<cr>\\\\end{description}<++>"$/;"	v
+s:dimensionMenuLoc	latex-suite/elementmacros.vim	/^let s:dimensionMenuLoc  = g:Tex_ElementsMenuLocation.'Dimension.'$/;"	v
+s:document	latex-suite/envmacros.vim	/^let s:document =   "\\\\documentclass[<+options+>]{<+class+>}\\<cr>\\<cr>\\\\begin{document}\\<cr><++>\\<cr>\\\\end{document}"$/;"	v
+s:done	latex-suite/bibtex.vim	/^let s:done = 1$/;"	v
+s:doneFunctionDefinitions	latex-suite/main.vim	/^let s:doneFunctionDefinitions = 1$/;"	v
+s:doneMappings	latex-suite/main.vim	/^	let s:doneMappings = 1$/;"	v
+s:doneOnce	latex-suite/elementmacros.vim	/^let s:doneOnce = 1$/;"	v
+s:doneOnce	latex-suite/envmacros.vim	/^let s:doneOnce = 1$/;"	v
+s:doneOnce	latex-suite/packages.vim	/^let s:doneOnce = 1$/;"	v
+s:doneOnce	latex-suite/wizardfuncs.vim	/^let s:doneOnce = 1$/;"	v
+s:e_standsfor	latex-suite/bibtex.vim	/^let s:e_standsfor = 'editor'$/;"	v
+s:figure	latex-suite/envmacros.vim	/^let s:figure =     "\\\\begin{figure}[<+htpb+>]\\<cr>\\\\centering\\<cr>\\\\psfig{figure=<+eps file+>}\\<cr>\\\\caption{<+caption text+>}\\<cr>\\\\label{fig:<+label+>}\\<cr>\\\\end{figure}<++>"$/;"	v
+s:figure_graphicx	latex-suite/envmacros.vim	/^let s:figure_graphicx =    "\\\\begin{figure}[<+htpb+>]\\<cr>\\\\centering\\<cr>\\\\includegraphics{<+file+>}\\<cr>\\\\caption{<+caption text+>}\\<cr>\\\\label{fig:<+label+>}\\<cr>\\\\end{figure}<++>"$/;"	v
+s:fontMenuLoc	latex-suite/elementmacros.vim	/^let s:fontMenuLoc       = g:Tex_ElementsMenuLocation.'Font.'$/;"	v
+s:h_standsfor	latex-suite/bibtex.vim	/^let s:h_standsfor = 'howpublished'$/;"	v
+s:i_standsfor	latex-suite/bibtex.vim	/^let s:i_standsfor = 'institution'$/;"	v
+s:incnum	latex-suite/main.vim	/^let s:incnum = 0$/;"	v
+s:initLatexSuite	tex_latexSuite.vim	/^	let s:initLatexSuite = 1$/;"	v
+s:j_standsfor	latex-suite/bibtex.vim	/^let s:j_standsfor = 'journal'$/;"	v
+s:k_standsfor	latex-suite/bibtex.vim	/^let s:k_standsfor = 'isbn'$/;"	v
+s:key	latex-suite/bibtex.vim	/^let s:key='<+key+>'$/;"	v
+s:lastElementsLocation	latex-suite/elementmacros.vim	/^let s:lastElementsLocation = g:Tex_ElementsMenuLocation$/;"	v
+s:list	latex-suite/envmacros.vim	/^let s:list =       "\\\\begin{list}{<+label+>}{<+spacing+>}\\<cr>\\\\item <++>\\<cr>\\\\end{list}<++>"$/;"	v
+s:m_standsfor	latex-suite/bibtex.vim	/^let s:m_standsfor = 'month'$/;"	v
+s:macrodirpath	latex-suite/custommacros.vim	/^		let s:macrodirpath = $HOME."\/vimfiles\/ftplugin\/latex-suite\/macros\/"$/;"	v
+s:macrodirpath	latex-suite/custommacros.vim	/^		let s:macrodirpath = $VIM."\/vimfiles\/ftplugin\/latex-suite\/macros\/"$/;"	v
+s:macrodirpath	latex-suite/custommacros.vim	/^	let s:macrodirpath = $HOME."\/.vim\/ftplugin\/latex-suite\/macros\/"$/;"	v
+s:mainmenuname	latex-suite/texmenuconf.vim	/^let s:mainmenuname = g:Tex_MenuPrefix.'S&uite.'$/;"	v
+s:mapleader	latex-suite/texmenuconf.vim	/^let s:mapleader = exists('mapleader') ? mapleader : "\\\\"$/;"	v
+s:mapleader	latex-suite/wizardfuncs.vim	/^let s:mapleader = exists('mapleader') ? mapleader : "\\\\"$/;"	v
+s:menu_div	latex-suite/packages.vim	/^let s:menu_div = 20$/;"	v
+s:minipage	latex-suite/envmacros.vim	/^let s:minipage =   "\\\\begin{minipage}[<+tb+>]{<+width+>}\\<cr><++>\\<cr>\\\\end{minipage}<++>"$/;"	v
+s:ml	latex-suite/main.vim	/^let s:ml = '<Leader>'$/;"	v
+s:n_standsfor	latex-suite/bibtex.vim	/^let s:n_standsfor = 'number'$/;"	v
+s:o_standsfor	latex-suite/bibtex.vim	/^let s:o_standsfor = 'organization'$/;"	v
+s:pA	latex-suite/mathmacros-utf.vim	/^let s:pA = 'amenu <silent> 85 '.s:MathMenuName$/;"	v
+s:pA	latex-suite/mathmacros.vim	/^let s:pA = 'amenu <silent> '.g:Tex_NextMenuLocation.' '.s:MathMenuName$/;"	v
+s:pA1	latex-suite/mathmacros-utf.vim	/^let s:pA1 = s:pA."&Arrows."$/;"	v
+s:pA1	latex-suite/mathmacros.vim	/^let s:pA1 = s:pA."&Arrows."$/;"	v
+s:pA10	latex-suite/mathmacros-utf.vim	/^let s:pA10 = s:pA."&MathCreating."$/;"	v
+s:pA10	latex-suite/mathmacros.vim	/^let s:pA10 = s:pA."&MathCreating."$/;"	v
+s:pA11	latex-suite/mathmacros-utf.vim	/^let s:pA11 = s:pA."&Styles."$/;"	v
+s:pA11	latex-suite/mathmacros.vim	/^let s:pA11 = s:pA."&Styles."$/;"	v
+s:pA12	latex-suite/mathmacros-utf.vim	/^let s:pA12 = s:pA."&MathDiacritics."$/;"	v
+s:pA12	latex-suite/mathmacros.vim	/^let s:pA12 = s:pA."&MathDiacritics."$/;"	v
+s:pA13	latex-suite/mathmacros-utf.vim	/^let s:pA13 = s:pA."&OverlineAndCo."$/;"	v
+s:pA13	latex-suite/mathmacros.vim	/^let s:pA13 = s:pA."&OverlineAndCo."$/;"	v
+s:pA14a	latex-suite/mathmacros-utf.vim	/^let s:pA14a = s:pA."&Symbols1."$/;"	v
+s:pA14a	latex-suite/mathmacros.vim	/^let s:pA14a = s:pA."&Symbols1."$/;"	v
+s:pA14b	latex-suite/mathmacros-utf.vim	/^let s:pA14b = s:pA."&Symbols2."$/;"	v
+s:pA14b	latex-suite/mathmacros.vim	/^let s:pA14b = s:pA."&Symbols2."$/;"	v
+s:pA14c	latex-suite/mathmacros-utf.vim	/^let s:pA14c = s:pA."&Symbols3."$/;"	v
+s:pA14c	latex-suite/mathmacros.vim	/^let s:pA14c = s:pA."&Symbols3."$/;"	v
+s:pA15	latex-suite/mathmacros-utf.vim	/^let s:pA15 = s:pA."&Logic."$/;"	v
+s:pA15	latex-suite/mathmacros.vim	/^let s:pA15 = s:pA."&Logic."$/;"	v
+s:pA16	latex-suite/mathmacros-utf.vim	/^let s:pA16 = s:pA."&Limits1."$/;"	v
+s:pA16	latex-suite/mathmacros.vim	/^let s:pA16 = s:pA."&Limits1."$/;"	v
+s:pA16a	latex-suite/mathmacros-utf.vim	/^let s:pA16a = s:pA."&Limits2."$/;"	v
+s:pA16a	latex-suite/mathmacros.vim	/^let s:pA16a = s:pA."&Limits2."$/;"	v
+s:pA17	latex-suite/mathmacros-utf.vim	/^let s:pA17 = s:pA."Lo&g-likes."$/;"	v
+s:pA17	latex-suite/mathmacros.vim	/^let s:pA17 = s:pA."Lo&g-likes."$/;"	v
+s:pA18	latex-suite/mathmacros-utf.vim	/^let s:pA18 = s:pA."MathSpacing."$/;"	v
+s:pA18	latex-suite/mathmacros.vim	/^let s:pA18 = s:pA."MathSpacing."$/;"	v
+s:pA1a	latex-suite/mathmacros-utf.vim	/^let s:pA1a = s:pA."Arrows2."$/;"	v
+s:pA1a	latex-suite/mathmacros.vim	/^let s:pA1a = s:pA."&nArrows."$/;"	v
+s:pA1a	latex-suite/mathmacros.vim	/^let s:pA1a = s:pA."Arrows2."$/;"	v
+s:pA1b	latex-suite/mathmacros-utf.vim	/^let s:pA1b = s:pA."&nArrows."$/;"	v
+s:pA2	latex-suite/mathmacros-utf.vim	/^let s:pA2 = s:pA."&Greek.&Small."$/;"	v
+s:pA2	latex-suite/mathmacros.vim	/^let s:pA2 = s:pA."&Greek.&Small."$/;"	v
+s:pA2a	latex-suite/mathmacros-utf.vim	/^let s:pA2a = s:pA."&MathFonts."$/;"	v
+s:pA2a	latex-suite/mathmacros.vim	/^let s:pA2a = s:pA."&MathFonts."$/;"	v
+s:pA3	latex-suite/mathmacros-utf.vim	/^let s:pA3 = s:pA.'&Greek.&Big.' $/;"	v
+s:pA3	latex-suite/mathmacros.vim	/^let s:pA3 = s:pA.'&Greek.&Big.' $/;"	v
+s:pA4	latex-suite/mathmacros-utf.vim	/^let s:pA4 = s:pA."&BinaryRel1."  $/;"	v
+s:pA4	latex-suite/mathmacros.vim	/^let s:pA4 = s:pA."&BinaryRel1."  $/;"	v
+s:pA4a	latex-suite/mathmacros-utf.vim	/^let s:pA4a = s:pA."&nBinaryRel1."  $/;"	v
+s:pA4a	latex-suite/mathmacros.vim	/^let s:pA4a = s:pA."&nBinaryRel1."  $/;"	v
+s:pA5	latex-suite/mathmacros-utf.vim	/^let s:pA5 = s:pA."&BinaryRel2."  $/;"	v
+s:pA5	latex-suite/mathmacros.vim	/^let s:pA5 = s:pA."&BinaryRel2."  $/;"	v
+s:pA5a	latex-suite/mathmacros-utf.vim	/^let s:pA5a = s:pA."n&BinaryRel2."  "TODO: dorobiæ logarytmy$/;"	v
+s:pA5a	latex-suite/mathmacros.vim	/^let s:pA5a = s:pA."n&BinaryRel2."  "TODO: dorobi� logarytmy$/;"	v
+s:pA6	latex-suite/mathmacros-utf.vim	/^let s:pA6 = s:pA."&BinaryRel3."  $/;"	v
+s:pA6	latex-suite/mathmacros.vim	/^let s:pA6 = s:pA."&BinaryRel3."  $/;"	v
+s:pA6a	latex-suite/mathmacros-utf.vim	/^let s:pA6a = s:pA."&nBinaryRel3."$/;"	v
+s:pA6a	latex-suite/mathmacros.vim	/^let s:pA6a = s:pA."&nBinaryRel3."$/;"	v
+s:pA7	latex-suite/mathmacros-utf.vim	/^let s:pA7 = s:pA."&BinaryRel4."  $/;"	v
+s:pA7	latex-suite/mathmacros.vim	/^let s:pA7 = s:pA."&BinaryRel4."  $/;"	v
+s:pA8	latex-suite/mathmacros-utf.vim	/^let s:pA8 = s:pA."&BinaryOp."$/;"	v
+s:pA8	latex-suite/mathmacros.vim	/^let s:pA8 = s:pA."&BinaryOp."$/;"	v
+s:pA8a	latex-suite/mathmacros-utf.vim	/^let s:pA8a = s:pA."&BigOp."$/;"	v
+s:pA8a	latex-suite/mathmacros.vim	/^let s:pA8a = s:pA."&BigOp."$/;"	v
+s:pA9	latex-suite/mathmacros-utf.vim	/^let s:pA9 = s:pA."&Other1."$/;"	v
+s:pA9	latex-suite/mathmacros.vim	/^let s:pA9 = s:pA."&Other1."$/;"	v
+s:p_standsfor	latex-suite/bibtex.vim	/^let s:p_standsfor = 'pages'$/;"	v
+s:path	latex-suite/custommacros.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v
+s:path	latex-suite/main.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v
+s:path	latex-suite/packages.vim	/^let s:path = fnameescape(expand("<sfile>:p:h"))$/;"	v
+s:path	latex-suite/templates.vim	/^let s:path = fnameescape(expand("<sfile>:p:h"))$/;"	v
+s:path	latex-suite/texmenuconf.vim	/^let s:path = fnameescape(expand("<sfile>:p:h"))$/;"	v
+s:path	latex-suite/texproject.vim	/^let s:path = fnameescape(expand("<sfile>:p:h"))$/;"	v
+s:path	latex-suite/texviewer.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v
+s:picture	latex-suite/envmacros.vim	/^let s:picture =    "\\\\begin{picture}(<+width+>, <+height+>)(<+xoff+>,<+yoff+>)\\<cr>\\\\put(<+xoff+>,<+yoff+>){\\\\framebox(<++>,<++>){<++>}}\\<cr>\\\\end{picture}<++>"$/;"	v
+s:q_standsfor	latex-suite/bibtex.vim	/^let s:q_standsfor = 'publisher'$/;"	v
+s:r_standsfor	latex-suite/bibtex.vim	/^let s:r_standsfor = 'school'$/;"	v
+s:s_standsfor	latex-suite/bibtex.vim	/^let s:s_standsfor = 'series'$/;"	v
+s:save_cpo	latex-suite/main.vim	/^let s:save_cpo = &cpo$/;"	v
+s:smartBS_pat	latex-suite/main.vim	/^	let s:smartBS_pat = Tex_GetVarValue('Tex_SmartBSPattern')$/;"	v
+s:t_standsfor	latex-suite/bibtex.vim	/^let s:t_standsfor = 'title'$/;"	v
+s:table	latex-suite/envmacros.vim	/^let s:table =      "\\\\begin{table}\\<cr>\\\\centering\\<cr>\\\\begin{tabular}{<+dimensions+>}\\<cr><++>\\<cr>\\\\end{tabular}\\<cr>\\\\caption{<+Caption text+>}\\<cr>\\\\label{tab:<+label+>}\\<cr>\\\\end{table}<++>"$/;"	v
+s:tabular	latex-suite/envmacros.vim	/^let s:tabular = "\\\\begin{tabular}[<+hbtp+>]{<+format+>}\\<cr><++>\\<cr>\\\\end{tabular}"$/;"	v
+s:tabular_star	latex-suite/envmacros.vim	/^let s:tabular_star = "\\\\begin{tabular*}[<+hbtp+>]{<+format+>}\\<cr><++>\\<cr>\\\\end{tabular*}"$/;"	v
+s:tex_ctags	latex-suite/main.vim	/^		let s:tex_ctags = 'ctags' " Configurable in texrc?$/;"	v
+s:tex_ctags	latex-suite/main.vim	/^		let s:tex_ctags = Tlist_Ctags_Cmd$/;"	v
+s:u_standsfor	latex-suite/bibtex.vim	/^let s:u_standsfor = 'type'$/;"	v
+s:up_path	latex-suite/texmenuconf.vim	/^let s:up_path = fnameescape(expand("<sfile>:p:h:h"))$/;"	v
+s:v_standsfor	latex-suite/bibtex.vim	/^let s:v_standsfor = 'volume'$/;"	v
+s:variousMenuLoc	latex-suite/elementmacros.vim	/^let s:variousMenuLoc    = g:Tex_ElementsMenuLocation.'Various.'$/;"	v
+s:vis_center_left	latex-suite/envmacros.vim	/^	let s:vis_center_left = '\\centerline{'$/;"	v
+s:vis_center_right	latex-suite/envmacros.vim	/^	let s:vis_center_right = '}'$/;"	v
+s:vis_flushright_left	latex-suite/envmacros.vim	/^	let s:vis_flushright_left =  '{\\raggedright '$/;"	v
+s:vis_flushright_right	latex-suite/envmacros.vim	/^	let s:vis_flushright_right = '}'$/;"	v
+s:vis_fushleft_left	latex-suite/envmacros.vim	/^	let s:vis_fushleft_left = '{\\raggedleft '$/;"	v
+s:vis_fushleft_right	latex-suite/envmacros.vim	/^	let s:vis_fushleft_right = '}'$/;"	v
+s:vis_lrbox_left	latex-suite/envmacros.vim	/^	let s:vis_lrbox_left = '\\sbox{'$/;"	v
+s:vis_lrbox_right	latex-suite/envmacros.vim	/^	let s:vis_lrbox_right = '}'$/;"	v
+s:vis_verbatim_left	latex-suite/envmacros.vim	/^	let s:vis_verbatim_left = '\\verb\\|'$/;"	v
+s:vis_verbatim_right	latex-suite/envmacros.vim	/^	let s:vis_verbatim_right = '\\|'$/;"	v
+s:w_standsfor	latex-suite/bibtex.vim	/^let s:w_standsfor = 'address'$/;"	v
+s:y_standsfor	latex-suite/bibtex.vim	/^let s:y_standsfor = 'year'$/;"	v
+s:z_standsfor	latex-suite/bibtex.vim	/^let s:z_standsfor = 'note'$/;"	v
+satisfies	latex-suite/bibtools.py	/^    def satisfies(self, filters):$/;"	m	class:Bibliography
+sort	latex-suite/bibtools.py	/^    def sort(self):$/;"	m	class:BibFile
+string	latex-suite/pytools.py	/^import string$/;"	i
+stripComments	latex-suite/outline.py	/^def stripComments(contents):$/;"	f
+sys	latex-suite/bibtools.py	/^    import sys$/;"	i
+sys	latex-suite/outline.py	/^import sys$/;"	i
+tlist_txt_settings	txt.vim	/^let tlist_txt_settings = 'txt;c:content;f:figures;t:tables'$/;"	v
+urllib	latex-suite/bibtools.py	/^import urllib$/;"	i
+vim	fortran_codecomplete.vim	/^import vim$/;"	m
+vim	latex-suite/pytools.py	/^import vim$/;"	i
+{	c.vim	/^inoremap { {<CR>}<Esc>O$/;"	m

@@ -1,0 +1,887 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#	txtbrowser.vim	/^    vnoremap <silent> # y?<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+*	txtbrowser.vim	/^    vnoremap <silent> * y\/<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).#\\ Search\\ Backward(&P) <ESC>#$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).*\\ Search\\ Forward(&N) <ESC>*$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Find\\ This\\ Word(&F) <ESC>:TFind <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Goto\\ This\\ Url(&G) <ESC>:TGoto <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Hightlight\\ This\\ Word(&H) <ESC>yaw:TBMatch @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ Blue <ESC>yaw:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ bold(&B) <ESC>yaw:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ green <ESC>yaw:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ italic(&I) <ESC>yaw:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ red(&R) <ESC>yaw:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.TxtBrowser(&T).Search\\ This\\ Word(&S) <ESC>:TSearch <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).前向搜索光标下的单词(&N) <ESC>*$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).加粗(&B) <ESC>yaw:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).加红(&R) <ESC>yaw:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).加绿 <ESC>yaw:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).加蓝 <ESC>yaw:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).变斜(&I) <ESC>yaw:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).后向搜索光标下的单词(&P) <ESC>#$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).打开光标下的URL(&G) <ESC>:TGoto <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).搜索光标下的单词(&S) <ESC>:TSearch <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).查找光标下的单词(&F) <ESC>:TFind <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    inoremenu <silent> .51 PopUp.文本浏览工具(&T).高亮搜索光标下的单词(&H) <ESC>yaw:TBMatch @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).#\\ Search\\ Backward(&P) #$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).*\\ Search\\ Forward(&N) *$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Find\\ This\\ Word(&F) :TFind <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Goto\\ This\\ Url(&G) :TGoto <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Hightlight\\ This\\ Word(&H) yaw<ESC>:TBMatch @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ Blue yaw<ESC>:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ bold(&B) yaw<ESC>:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ green yaw<ESC>:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ italic(&I) yaw<ESC>:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ red(&R) yaw<ESC>:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Search\\ This\\ Word(&S) :TSearch <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).前向搜索光标下的单词(&N) *$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).加粗(&B) yaw<ESC>:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).加红(&R) yaw<ESC>:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).加绿 yaw<ESC>:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).加蓝 yaw<ESC>:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).变斜(&I) yaw<ESC>:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).后向搜索光标下的单词(&P) #$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).打开光标下的URL(&G) :TGoto <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).搜索光标下的单词(&S) :TSearch <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).查找光标下的单词(&F) :TFind <cword> <CR>$/;"	m
+.51	txtbrowser.vim	/^    nnoremenu <silent> .51 PopUp.文本浏览工具(&T).高亮搜索光标下的单词(&H) yaw<ESC>:TBMatch @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).#\\ Search\\ Backward(&P) y?<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).*\\ Search\\ Forward(&N) y\/<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Find\\ Word\\ Selected(&F) y<ESC>:TFind <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Goto\\ Url\\ Selected(&G) y<ESC>:TGoto <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Hightlight\\ Text\\ Selected(&H) y<ESC>:TBMatch @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ Blue y<ESC>:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ bold(&B) y<ESC>:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ green y<ESC>:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ italic(&I) y<ESC>:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Make\\ red(&R) y<ESC>:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.TxtBrowser(&T).Search\\ Word\\ Selected(&S) y<ESC>:TSearch <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).前向搜索选中的文本(&N) y\/<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).加粗(&B) y<ESC>:TBBold @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).加红(&R) y<ESC>:TBRed @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).加绿 y<ESC>:TBGreen @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).加蓝 y<ESC>:TBBlue @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).变斜(&I) y<ESC>:TBItalic @\\" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).后向搜索选中的文本(&P) y?<C-R>=substitute(escape(@", '.*\\\\\/[]'), "\\n", '\\\\n', 'g')<CR><CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).打开选择的URL(&G) y<ESC>:TGoto <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).搜索选择的单词(&S) y<ESC>:TSearch <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).查找选择的单词(&F) y<ESC>:TFind <c-r>" <CR>$/;"	m
+.51	txtbrowser.vim	/^    vnoremenu <silent> .51 PopUp.文本浏览工具(&T).高亮选中的文本(&H) y<ESC>:TBMatch @\\" <CR>$/;"	m
+<C-Down>	minibufexpl.vim	/^  noremap <C-Down>  <C-W>j$/;"	m
+<C-H>	minibufexpl.vim	/^  noremap <C-H> <C-W>h$/;"	m
+<C-J>	imaps.vim	/^		vmap <C-J> <Plug>IMAP_DeleteAndJumpForward$/;"	m
+<C-J>	imaps.vim	/^		vmap <C-J> <Plug>IMAP_JumpForward$/;"	m
+<C-J>	imaps.vim	/^    imap <C-J> <Plug>IMAP_JumpForward$/;"	m
+<C-J>	imaps.vim	/^    nmap <C-J> <Plug>IMAP_JumpForward$/;"	m
+<C-J>	minibufexpl.vim	/^  noremap <C-J> <C-W>j$/;"	m
+<C-K>	minibufexpl.vim	/^  noremap <C-K> <C-W>k$/;"	m
+<C-L>	minibufexpl.vim	/^  noremap <C-L> <C-W>l$/;"	m
+<C-Left>	minibufexpl.vim	/^  noremap <C-Left>  <C-W>h$/;"	m
+<C-Right>	minibufexpl.vim	/^  noremap <C-Right> <C-W>l$/;"	m
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> :call <SID>CycleBuffer(0)<CR>:<BS>$/;"	m
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> <C-W>W$/;"	m
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   :call <SID>CycleBuffer(1)<CR>:<BS>$/;"	m
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   <C-W>w$/;"	m
+<C-Up>	minibufexpl.vim	/^  noremap <C-Up>    <C-W>k$/;"	m
+<Leader>f	txtbrowser.vim	/^    nmap <script> <silent> <unique> <Leader>f <ESC>:TFind <cword> <CR>$/;"	m
+<Leader>f	txtbrowser.vim	/^    vmap <script> <silent> <unique> <Leader>f y<ESC>:TFind <c-r>" <CR>$/;"	m
+<Leader>g	txtbrowser.vim	/^    nmap <script> <silent> <unique> <Leader>g <ESC>:TGoto <CR>$/;"	m
+<Leader>g	txtbrowser.vim	/^    vmap <script> <silent> <unique> <Leader>g y<ESC>:TGoto <c-r>" <CR>$/;"	m
+<Leader>h	txtbrowser.vim	/^    nmap <script> <silent> <unique> <Leader>h yaw<ESC>:TBMatch @\\" <CR>$/;"	m
+<Leader>h	txtbrowser.vim	/^    vmap <script> <silent> <unique> <Leader>h y<ESC>:TBMatch @\\" <CR>$/;"	m
+<Leader>ih	a.vim	/^imap <Leader>ih <ESC>:IHS<CR>$/;"	m
+<Leader>ih	a.vim	/^nmap <Leader>ih :IHS<CR>$/;"	m
+<Leader>ihn	a.vim	/^imap <Leader>ihn <ESC>:IHN<CR>$/;"	m
+<Leader>ihn	a.vim	/^nmap <Leader>ihn :IHN<CR>$/;"	m
+<Leader>is	a.vim	/^imap <Leader>is <ESC>:IHS<CR>:A<CR>$/;"	m
+<Leader>is	a.vim	/^nmap <Leader>is :IHS<CR>:A<CR>$/;"	m
+<Leader>mbc	minibufexpl.vim	/^  map <unique> <Leader>mbc <Plug>CMiniBufExplorer$/;"	m
+<Leader>mbe	minibufexpl.vim	/^  map <unique> <Leader>mbe <Plug>MiniBufExplorer$/;"	m
+<Leader>mbt	minibufexpl.vim	/^  map <unique> <Leader>mbt <Plug>TMiniBufExplorer$/;"	m
+<Leader>mbu	minibufexpl.vim	/^  map <unique> <Leader>mbu <Plug>UMiniBufExplorer$/;"	m
+<Leader>s	txtbrowser.vim	/^    nmap <script> <silent> <unique> <Leader>s <ESC>:TSearch <cword> <CR>$/;"	m
+<Leader>s	txtbrowser.vim	/^    vmap <script> <silent> <unique> <Leader>s y<ESC>:TSearch <c-r>" <CR>$/;"	m
+<Leader>tH	tablify.vim	/^noremap <script> <silent> <Leader>tH  :call <SID>MoveCol('left')<CR>$/;"	m
+<Leader>tJ	tablify.vim	/^noremap <script> <silent> <Leader>tJ  :call <SID>MoveRow('down')<CR>$/;"	m
+<Leader>tK	tablify.vim	/^noremap <script> <silent> <Leader>tK  :call <SID>MoveRow('up')<CR>$/;"	m
+<Leader>tL	tablify.vim	/^noremap <script> <silent> <Leader>tL  :call <SID>MoveCol('right')<CR>$/;"	m
+<Leader>tRC	tablify.vim	/^noremap <script> <silent> <Leader>tRC :call <SID>Realign('center')<CR>$/;"	m
+<Leader>tRL	tablify.vim	/^noremap <script> <silent> <Leader>tRL :call <SID>Realign('left')<CR>$/;"	m
+<Leader>tRR	tablify.vim	/^noremap <script> <silent> <Leader>tRR :call <SID>Realign('right')<CR>$/;"	m
+<Leader>tS	tablify.vim	/^noremap <script> <silent> <Leader>tS  :call <SID>Sort()<CR>$/;"	m
+<Leader>ta	tablify.vim	/^noremap <script> <silent> <Leader>ta  :call <SID>Select()<CR>$/;"	m
+<Leader>tc	tablify.vim	/^noremap <script> <silent> <Leader>tc  :call <SID>Tablify('center')<CR>$/;"	m
+<Leader>tl	tablify.vim	/^noremap <script> <silent> <Leader>tl  :call <SID>Tablify('left')<CR>$/;"	m
+<Leader>tr	tablify.vim	/^noremap <script> <silent> <Leader>tr  :call <SID>Tablify('right')<CR>$/;"	m
+<Leader>tt	tablify.vim	/^noremap <script> <silent> <Leader>tt  :call <SID>Tablify('left')<CR>$/;"	m
+<Leader>tu	tablify.vim	/^noremap <script> <silent> <Leader>tu  :call <SID>Untablify()<CR>$/;"	m
+<Plug>CMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>CMiniBufExplorer :call <SID>StopExplorer(1)<CR>:<BS>$/;"	m
+<Plug>IMAP_DeleteAndJumpBack	imaps.vim	/^vnoremap <silent> <Plug>IMAP_DeleteAndJumpBack          "_<Del>i<c-r>=IMAP_Jumpfunc('b', 0)<CR>$/;"	m
+<Plug>IMAP_DeleteAndJumpForward	imaps.vim	/^vnoremap <silent> <Plug>IMAP_DeleteAndJumpForward       "_<Del>i<c-r>=IMAP_Jumpfunc('', 0)<CR>$/;"	m
+<Plug>IMAP_JumpBack	imaps.vim	/^inoremap <silent> <Plug>IMAP_JumpBack       <c-r>=IMAP_Jumpfunc('b', 0)<CR>$/;"	m
+<Plug>IMAP_JumpBack	imaps.vim	/^nnoremap <silent> <Plug>IMAP_JumpBack           i<c-r>=IMAP_Jumpfunc('b', 0)<CR>$/;"	m
+<Plug>IMAP_JumpBack	imaps.vim	/^vnoremap <silent> <Plug>IMAP_JumpBack          <C-\\><C-N>`<i<c-r>=IMAP_Jumpfunc('b', 0)<CR>$/;"	m
+<Plug>IMAP_JumpForward	imaps.vim	/^inoremap <silent> <Plug>IMAP_JumpForward    <c-r>=IMAP_Jumpfunc('', 0)<CR>$/;"	m
+<Plug>IMAP_JumpForward	imaps.vim	/^nnoremap <silent> <Plug>IMAP_JumpForward        i<c-r>=IMAP_Jumpfunc('', 0)<CR>$/;"	m
+<Plug>IMAP_JumpForward	imaps.vim	/^vnoremap <silent> <Plug>IMAP_JumpForward       <C-\\><C-N>i<c-r>=IMAP_Jumpfunc('', 0)<CR>$/;"	m
+<Plug>MiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>MiniBufExplorer  :call <SID>StartExplorer(1, -1)<CR>:<BS>$/;"	m
+<Plug>SuperTabBackward	supertab.vim	/^  imap <script> <Plug>SuperTabBackward <c-r>=SuperTab('p')<cr>$/;"	m
+<Plug>SuperTabForward	supertab.vim	/^  imap <script> <Plug>SuperTabForward <c-r>=SuperTab('n')<cr>$/;"	m
+<Plug>TMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>TMiniBufExplorer :call <SID>ToggleExplorer()<CR>:<BS>$/;"	m
+<Plug>UMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>UMiniBufExplorer :call <SID>AutoUpdate(-1)<CR>:<BS>$/;"	m
+<SID>xx	taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+<c-x>	supertab.vim	/^  imap <silent> <c-x> <c-r>=<SID>ManualCompletionEnter()<cr>$/;"	m
+<cr>	supertab.vim	/^      inoremap <silent> <cr> <c-r>=<SID>SelectCompletion(1)<cr>$/;"	m
+<plug><+SelectRegion+>	imaps.vim	/^nnoremap <silent> <script> <plug><+SelectRegion+> `<v`>$/;"	m
+A	a.vim	/^comm! -nargs=? -bang A call AlternateFile("n<bang>", <f-args>)$/;"	c
+AN	a.vim	/^comm! -nargs=? -bang AN call NextAlternate("<bang>")$/;"	c
+AS	a.vim	/^comm! -nargs=? -bang AS call AlternateFile("h<bang>", <f-args>)$/;"	c
+AT	a.vim	/^comm! -nargs=? -bang AT call AlternateFile("t<bang>", <f-args>)$/;"	c
+ATP_LoadVimSettings	tex_atp.vim	/^augroup ATP_LoadVimSettings "{{{1$/;"	a
+ATP_LoadVimSettings	tex_atp.vim	/^function! ATP_LoadVimSettings()$/;"	f
+ATP_SetStatusLineNotificationColor	tex_atp.vim	/^augroup ATP_SetStatusLineNotificationColor$/;"	a
+ATP_texlog	tex_atp.vim	/^augroup ATP_texlog "{{{1$/;"	a
+ATPversion	tex_atp.vim	/^command! 	ATPversion				:echo atplib#various#ATPversion()$/;"	c
+AV	a.vim	/^comm! -nargs=? -bang AV call AlternateFile("v<bang>", <f-args>)$/;"	c
+AddAlternateExtensionMapping	a.vim	/^function! <SID>AddAlternateExtensionMapping(extension, alternates)$/;"	f
+AddFileInfo	winfileexplorer.vim	/^function! s:AddFileInfo()$/;"	f
+AddHeader	winfileexplorer.vim	/^function! s:AddHeader()$/;"	f
+AddListItem	libList.vim	/^function AddListItem( array, newItem, index )$/;"	f
+AddSeparators	winfileexplorer.vim	/^function! s:AddSeparators()$/;"	f
+AddSyntaxFoldItem	SyntaxFolds.vim	/^function! AddSyntaxFoldItem(start, end, startoff, endoff, ...)$/;"	f
+AddToFavDir	winfileexplorer.vim	/^function! s:AddToFavDir()$/;"	f
+Agrep	grep.vim	/^command! -nargs=* -complete=file Agrep$/;"	c
+AgrepAdd	grep.vim	/^command! -nargs=* -complete=file AgrepAdd$/;"	c
+Agrep_Path	grep.vim	/^    let Agrep_Path = 'agrep'$/;"	v
+AlternateFile	a.vim	/^function! AlternateFile(splitWindow, ...)$/;"	f
+AlternateOpenFileUnderCursor	a.vim	/^function! AlternateOpenFileUnderCursor(splitWindow,...)$/;"	f
+AlternateOpenNextFile	a.vim	/^function! AlternateOpenNextFile(bang)$/;"	f
+AutoClose	delimitMate.vim	/^function! s:AutoClose() "{{{$/;"	f
+AutoUpdate	minibufexpl.vim	/^function! <SID>AutoUpdate(delBufNum)$/;"	f
+Bgrep	grep.vim	/^command! -nargs=* Bgrep$/;"	c
+BgrepAdd	grep.vim	/^command! -nargs=* BgrepAdd$/;"	c
+BottomExplorerWindow	winmanager.vim	/^	command -nargs=0 BottomExplorerWindow :silent call <SID>GotoExplorerWindow('$')$/;"	c
+BufferOrFileExists	a.vim	/^function! <SID>BufferOrFileExists(fileName)$/;"	f
+BuildBufferList	minibufexpl.vim	/^function! <SID>BuildBufferList(delBufNum, updateBufList)$/;"	f
+CMiniBufExplorer	minibufexpl.vim	/^  command! CMiniBufExplorer  call <SID>StopExplorer(1)$/;"	c
+CaptureKeyPresses	supertab.vim	/^function! s:CaptureKeyPresses() " {{{$/;"	f
+CleanUpHistory	winfileexplorer.vim	/^function! <SID>CleanUpHistory()$/;"	f
+ClosePreview	supertab.vim	/^function! s:ClosePreview() " {{{$/;"	f
+CloseWindowsManager	winmanager.vim	/^function! <SID>CloseWindowsManager()$/;"	f
+ColorSchemeExplorer	csExplorer.vim	/^  command ColorSchemeExplorer :call <SID>ColorSchemeExplorer()$/;"	c
+ColorSchemeExplorer	csExplorer.vim	/^function! <SID>ColorSchemeExplorer()$/;"	f
+CommandLineCompletion	supertab.vim	/^function! s:CommandLineCompletion() " {{{$/;"	f
+CompletionReset	supertab.vim	/^function! s:CompletionReset(char) " {{{$/;"	f
+ContextCompletion	supertab.vim	/^function! s:ContextCompletion() " {{{$/;"	f
+ContextDiscover	supertab.vim	/^function! s:ContextDiscover() " {{{$/;"	f
+ContextText	supertab.vim	/^function! s:ContextText() " {{{$/;"	f
+CycleBuffer	minibufexpl.vim	/^function! <SID>CycleBuffer(forward)$/;"	f
+DEBUG	minibufexpl.vim	/^function! <SID>DEBUG(msg, level)$/;"	f
+DebugEcho	tablify.vim	/^function! <SID>DebugEcho(msg)$/;"	f
+DeleteFile	winfileexplorer.vim	/^function! s:DeleteFile() range$/;"	f
+DelimitMateOff	delimitMate.vim	/^command! -bar DelimitMateOff call s:setup(0)$/;"	c
+DelimitMateOn	delimitMate.vim	/^command! -bar DelimitMateOn call s:setup(1)$/;"	c
+DelimitMateReload	delimitMate.vim	/^command! -bar DelimitMateReload call s:setup(1)$/;"	c
+DelimitMateSwitch	delimitMate.vim	/^command! -bar DelimitMateSwitch call s:setup(2)$/;"	c
+DelimitMateTest	delimitMate.vim	/^command! -bar DelimitMateTest call s:test()$/;"	c
+DetermineExtension	a.vim	/^function! DetermineExtension(path) $/;"	f
+DisplayBuffers	minibufexpl.vim	/^function! <SID>DisplayBuffers(delBufNum)$/;"	f
+DisplayError	wintagexplorer.vim	/^function! <SID>DisplayError()$/;"	f
+DisplayTagsFile	wintagexplorer.vim	/^function! <SID>DisplayTagsFile()$/;"	f
+DoubleClick	winfileexplorer.vim	/^function s:DoubleClick()$/;"	f
+EditDir	winfileexplorer.vim	/^function! s:EditDir(...)$/;"	f
+EditDir	winmanager.vim	/^function! <SID>EditDir(event)$/;"	f
+EditEntry	winfileexplorer.vim	/^function! s:EditEntry(movefirst,editcmd)$/;"	f
+EditNextVisibleExplorer	winmanager.vim	/^function! <SID>EditNextVisibleExplorer(grpn, memn, dir, editcmd)$/;"	f
+Egrep	grep.vim	/^command! -nargs=* -complete=file Egrep$/;"	c
+EgrepAdd	grep.vim	/^command! -nargs=* -complete=file EgrepAdd$/;"	c
+Egrep_Path	grep.vim	/^    let Egrep_Path = 'egrep'$/;"	v
+EnableLongestEnhancement	supertab.vim	/^function! s:EnableLongestEnhancement() " {{{$/;"	f
+EnableNoCompleteAfterReset	supertab.vim	/^function! s:EnableNoCompleteAfterReset() " {{{$/;"	f
+EnumerateFilesByExtension	a.vim	/^function! EnumerateFilesByExtension(path, baseName, extension)$/;"	f
+EnumerateFilesByExtensionInPath	a.vim	/^function! EnumerateFilesByExtensionInPath(baseName, extension, pathList, relPathBase)$/;"	f
+EqualFilePaths	a.vim	/^function! <SID>EqualFilePaths(path1, path2)$/;"	f
+EscapeFilename	winfileexplorer.vim	/^function! s:EscapeFilename(name)$/;"	f
+ExchangeListItems	libList.vim	/^function ExchangeListItems( array, item1Index, item2Index )$/;"	f
+ExecMap	imaps.vim	/^function! ExecMap(prefix, mode)$/;"	f
+ExpandAlternatePath	a.vim	/^function! <SID>ExpandAlternatePath(pathSpec, sfPath) $/;"	f
+ExpandMap	supertab.vim	/^function! s:ExpandMap(map) " {{{$/;"	f
+Explore	winfileexplorer.vim	/^		command -n=? -complete=dir Explore :call s:StartExplorer(0, '<a>')$/;"	c
+ExploreInCurrentWindow	winfileexplorer.vim	/^		command -n=? -complete=dir ExploreInCurrentWindow :call <SID>EditDir()$/;"	c
+ExtraMappings	delimitMate.vim	/^function! s:ExtraMappings() "{{{$/;"	f
+ExtractFileDate	winfileexplorer.vim	/^function! s:ExtractFileDate(line)$/;"	f
+ExtractFileName	winfileexplorer.vim	/^function! s:ExtractFileName(line)$/;"	f
+ExtractFileSize	winfileexplorer.vim	/^function! s:ExtractFileSize(line)$/;"	f
+ExtractFullFileName	winfileexplorer.vim	/^function! s:ExtractFullFileName(line)$/;"	f
+FB_DisplayFiles	filebrowser.vim	/^function! FB_DisplayFiles(dir)$/;"	f
+FB_DisplayHelp	filebrowser.vim	/^function! <SID>FB_DisplayHelp()$/;"	f
+FB_EditEntry	filebrowser.vim	/^function! <SID>FB_EditEntry()$/;"	f
+FB_GetVar	filebrowser.vim	/^function! <SID>FB_GetVar(name, default)$/;"	f
+FB_OpenFileBrowser	filebrowser.vim	/^function! FB_OpenFileBrowser(dir)$/;"	f
+FB_ResetSilentSettings	filebrowser.vim	/^function! <SID>FB_ResetSilentSettings()$/;"	f
+FB_SetHighlighting	filebrowser.vim	/^function! <SID>FB_SetHighlighting()$/;"	f
+FB_SetMaps	filebrowser.vim	/^function! <SID>FB_SetMaps()$/;"	f
+FB_SetScratchSettings	filebrowser.vim	/^function! <SID>FB_SetScratchSettings()$/;"	f
+FB_SetSilentSettings	filebrowser.vim	/^function! <SID>FB_SetSilentSettings()$/;"	f
+FB_SetVar	filebrowser.vim	/^function! FB_SetVar(varname, value)$/;"	f
+FB_ToggleHelp	filebrowser.vim	/^function! <SID>FB_ToggleHelp()$/;"	f
+Fgrep	grep.vim	/^command! -nargs=* -complete=file Fgrep$/;"	c
+FgrepAdd	grep.vim	/^command! -nargs=* -complete=file FgrepAdd$/;"	c
+Fgrep_Path	grep.vim	/^    let Fgrep_Path = 'fgrep'$/;"	v
+FileDateCmp	winfileexplorer.vim	/^function! s:FileDateCmp(line1, line2, direction)$/;"	f
+FileExplorer_IsValid	winfileexplorer.vim	/^function! FileExplorer_IsValid()$/;"	f
+FileExplorer_Start	winfileexplorer.vim	/^function! FileExplorer_Start()$/;"	f
+FileExplorer_WrapUp	winfileexplorer.vim	/^function! FileExplorer_WrapUp()$/;"	f
+FileModDate	winfileexplorer.vim	/^function! s:FileModDate(name)$/;"	f
+FileNameCmp	winfileexplorer.vim	/^function! s:FileNameCmp(line1, line2, direction)$/;"	f
+FileSizeCmp	winfileexplorer.vim	/^function! s:FileSizeCmp(line1, line2, direction)$/;"	f
+FindCreateWindow	minibufexpl.vim	/^function! <SID>FindCreateWindow(bufName, forceEdge, isExplorer, doDebug)$/;"	f
+FindExplorerInGroup	winmanager.vim	/^function! <SID>FindExplorerInGroup(groupn, memn)$/;"	f
+FindFileInSearchPath	a.vim	/^function! <SID>FindFileInSearchPath(fileName, pathList, relPathBase)$/;"	f
+FindFileInSearchPathEx	a.vim	/^function! <SID>FindFileInSearchPathEx(fileName, pathList, relPathBase, count)$/;"	f
+FindOrCreateBuffer	a.vim	/^function! <SID>FindOrCreateBuffer(fileName, doSplit, findSimilar)$/;"	f
+FindWindow	minibufexpl.vim	/^function! <SID>FindWindow(bufName, doDebug)$/;"	f
+FirstExplorerWindow	winmanager.vim	/^	command -nargs=0 FirstExplorerWindow :silent call <SID>GotoExplorerWindow('1')$/;"	c
+FoldRegionsWithNoSkip	SyntaxFolds.vim	/^function! FoldRegionsWithNoSkip(startpat, endpat, startoff, endoff, line1, line2, skippedRegions)$/;"	f
+FoldRegionsWithSkip	SyntaxFolds.vim	/^function! FoldRegionsWithSkip(startpat, endpat, startoff, endoff, startskip, endskip, line1, line2)$/;"	f
+FoldTags	wintagexplorer.vim	/^function! <SID>FoldTags()$/;"	f
+GetColumn	tablify.vim	/^function! <SID>GetColumn(data, column)$/;"	f
+GetColumnWidths	tablify.vim	/^function! <SID>GetColumnWidths(data, rowLinesCnt)$/;"	f
+GetCommonPrefix	tablify.vim	/^function! <SID>GetCommonPrefix(fline, lline)$/;"	f
+GetCursorPos	tablify.vim	/^function! <SID>GetCursorPos() range$/;"	f
+GetFileName	winfileexplorer.vim	/^function! s:GetFileName()$/;"	f
+GetFileNameEsc	winfileexplorer.vim	/^function! s:GetFileNameEsc()$/;"	f
+GetFullFileName	winfileexplorer.vim	/^function! s:GetFullFileName()$/;"	f
+GetFullFileNameEsc	winfileexplorer.vim	/^function! s:GetFullFileNameEsc()$/;"	f
+GetListCount	libList.vim	/^function GetListCount( array )$/;"	f
+GetListItem	libList.vim	/^function GetListItem( array, index )$/;"	f
+GetListMatchItem	libList.vim	/^function GetListMatchItem( array, pattern )$/;"	f
+GetNthItemFromList	a.vim	/^function! <SID>GetNthItemFromList(list, n) $/;"	f
+GetRawData	tablify.vim	/^function! <SID>GetRawData(fline, lline)$/;"	f
+GetRowLinesCount	tablify.vim	/^function! <SID>GetRowLinesCount(data)$/;"	f
+GetSection	winfileexplorer.vim	/^function! s:GetSection()$/;"	f
+GetSelectedBuffer	minibufexpl.vim	/^function! <SID>GetSelectedBuffer()$/;"	f
+GetTableData	tablify.vim	/^function! <SID>GetTableData(fline, lline)$/;"	f
+GetTableLines	tablify.vim	/^function! <SID>GetTableLines()$/;"	f
+GetVimCmdOutput	visualmark.vim	/^fun! s:GetVimCmdOutput(cmd)$/;"	f
+GotoEditingArea	winmanager.vim	/^function! <SID>GotoEditingArea()$/;"	f
+GotoExplorerWindow	winmanager.vim	/^function! <SID>GotoExplorerWindow(which)$/;"	f
+GotoNextExplorerInGroup	winmanager.vim	/^function! <SID>GotoNextExplorerInGroup(name, ...)$/;"	f
+GotoWindow	winmanager.vim	/^function! <SID>GotoWindow(reqdWinNum)$/;"	f
+Grep	grep.vim	/^command! -nargs=* -complete=file Grep$/;"	c
+GrepAdd	grep.vim	/^command! -nargs=* -complete=file GrepAdd$/;"	c
+GrepArgs	grep.vim	/^command! -nargs=* GrepArgs$/;"	c
+GrepArgsAdd	grep.vim	/^command! -nargs=* GrepArgsAdd$/;"	c
+GrepBuffer	grep.vim	/^command! -nargs=* GrepBuffer$/;"	c
+GrepBufferAdd	grep.vim	/^command! -nargs=* GrepBufferAdd$/;"	c
+Grep_Cygwin_Find	grep.vim	/^    let Grep_Cygwin_Find = 0$/;"	v
+Grep_Default_Filelist	grep.vim	/^    let Grep_Default_Filelist = '*'$/;"	v
+Grep_Default_Options	grep.vim	/^    let Grep_Default_Options = ''$/;"	v
+Grep_Find_Path	grep.vim	/^    let Grep_Find_Path = 'find'$/;"	v
+Grep_Find_Use_Xargs	grep.vim	/^    let Grep_Find_Use_Xargs = 1$/;"	v
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = 'NUL'$/;"	v
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = '\/dev\/null'$/;"	v
+Grep_OpenQuickfixWindow	grep.vim	/^    let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_Path	grep.vim	/^    let Grep_Path = 'grep'$/;"	v
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = ''$/;"	v
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = '\\'$/;"	v
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = "'"$/;"	v
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = ''$/;"	v
+Grep_Skip_Dirs	grep.vim	/^    let Grep_Skip_Dirs = 'RCS CVS SCCS'$/;"	v
+Grep_Skip_Files	grep.vim	/^    let Grep_Skip_Files = '*~ *,v s.*'$/;"	v
+Grep_Xargs_Options	grep.vim	/^    let Grep_Xargs_Options = '-0'$/;"	v
+Grep_Xargs_Path	grep.vim	/^    let Grep_Xargs_Path = 'xargs'$/;"	v
+GroupTags	wintagexplorer.vim	/^function! <SID>GroupTags() range$/;"	f
+HasEligibleBuffers	minibufexpl.vim	/^function! <SID>HasEligibleBuffers(delBufNum)$/;"	f
+Hash	imaps.vim	/^fun! s:Hash(text)$/;"	f
+IH	a.vim	/^comm! -nargs=? -bang IH call AlternateOpenFileUnderCursor("n<bang>", <f-args>)$/;"	c
+IHN	a.vim	/^comm! -nargs=? -bang IHN call AlternateOpenNextFile("<bang>")$/;"	c
+IHS	a.vim	/^comm! -nargs=? -bang IHS call AlternateOpenFileUnderCursor("h<bang>", <f-args>)$/;"	c
+IHT	a.vim	/^comm! -nargs=? -bang IHT call AlternateOpenFileUnderCursor("t<bang>", <f-args>)$/;"	c
+IHV	a.vim	/^comm! -nargs=? -bang IHV call AlternateOpenFileUnderCursor("v<bang>", <f-args>)$/;"	c
+IMAP	imaps.vim	/^function! IMAP(lhs, rhs, ft, ...)$/;"	f
+IMAP_Debug	imaps.vim	/^function! IMAP_Debug(string, pattern)$/;"	f
+IMAP_DebugClear	imaps.vim	/^function! IMAP_DebugClear(pattern)$/;"	f
+IMAP_GetPlaceHolderEnd	imaps.vim	/^function! IMAP_GetPlaceHolderEnd()$/;"	f
+IMAP_GetPlaceHolderStart	imaps.vim	/^function! IMAP_GetPlaceHolderStart()$/;"	f
+IMAP_GetVal	imaps.vim	/^function! IMAP_GetVal(name, ...)$/;"	f
+IMAP_Jumpfunc	imaps.vim	/^function! IMAP_Jumpfunc(direction, inclusive)$/;"	f
+IMAP_Mark	imaps.vim	/^function! IMAP_Mark(action)$/;"	f
+IMAP_PrintDebug	imaps.vim	/^function! IMAP_PrintDebug(pattern)$/;"	f
+IMAP_PutTextWithMovement	imaps.vim	/^function! IMAP_PutTextWithMovement(str, ...)$/;"	f
+IMAP_list	imaps.vim	/^function! IMAP_list(lhs)$/;"	f
+Iconv	imaps.vim	/^function! s:Iconv(text, mode)$/;"	f
+Init	supertab.vim	/^function! s:Init() " {{{$/;"	f
+InitBuffer	supertab.vim	/^function! s:InitBuffer() " {{{$/;"	f
+InitStack	SyntaxFolds.vim	/^function! InitStack(name)$/;"	f
+InitializeMRUList	winmanager.vim	/^function! <SID>InitializeMRUList()$/;"	f
+IsExplorerBuffer	winmanager.vim	/^function! <SID>IsExplorerBuffer(num)$/;"	f
+IsExplorerGroupVisible	winmanager.vim	/^function! <SID>IsExplorerGroupVisible(i, ...)$/;"	f
+IsExplorerVisible	winmanager.vim	/^function! <SID>IsExplorerVisible(i)$/;"	f
+IsInSkippedRegion	SyntaxFolds.vim	/^function! IsInSkippedRegion(lnum, regions)$/;"	f
+IsNoCompleteAfterReset	supertab.vim	/^function! s:IsNoCompleteAfterReset() " {{{$/;"	f
+IsOnlyVertical	winmanager.vim	/^function! <SID>IsOnlyVertical()$/;"	f
+IsPreviewOpen	supertab.vim	/^function! s:IsPreviewOpen() " {{{$/;"	f
+IsWinManagerVisible	winmanager.vim	/^function! IsWinManagerVisible()$/;"	f
+KpsewhichEdit	tex_atp.vim	/^command! -nargs=1 -complete=custom,<SID>KpsewhichEditComp KpsewhichEdit :call <SID>KpsewhichEdit('<args>')$/;"	c
+KpsewhichEdit	tex_atp.vim	/^function! <SID>KpsewhichEdit(args)$/;"	f
+KpsewhichEditComp	tex_atp.vim	/^function! <SID>KpsewhichEditComp(ArgLead, CmdLine, CursorPos)$/;"	f
+LoadView	wintagexplorer.vim	/^function! s:LoadView(foldInfo)$/;"	f
+LocalCommands	tex_atp.vim	/^fun! <sid>LocalCommands() "{{{1$/;"	f
+LookupCharacter	imaps.vim	/^function! s:LookupCharacter(char)$/;"	f
+MBEClick	minibufexpl.vim	/^function! s:MBEClick()$/;"	f
+MBEDeleteBuffer	minibufexpl.vim	/^function! <SID>MBEDeleteBuffer()$/;"	f
+MBEDoubleClick	minibufexpl.vim	/^function! s:MBEDoubleClick()$/;"	f
+MBESelectBuffer	minibufexpl.vim	/^function! <SID>MBESelectBuffer()$/;"	f
+MBEbn	minibufexpl.vim	/^  command! MBEbn call <SID>CycleBuffer(1)$/;"	c
+MBEbp	minibufexpl.vim	/^  command! MBEbp call <SID>CycleBuffer(0)$/;"	c
+MRUGet	winmanager.vim	/^function! <SID>MRUGet(slot)$/;"	f
+MRUPop	winmanager.vim	/^function! <SID>MRUPop()$/;"	f
+MRUPush	winmanager.vim	/^function! <SID>MRUPush()$/;"	f
+MakeCell	tablify.vim	/^function! <SID>MakeCell(word, width, align)$/;"	f
+MakeSyntaxFolds	SyntaxFolds.vim	/^function! MakeSyntaxFolds(force, ...)$/;"	f
+ManualCompletionEnter	supertab.vim	/^function! s:ManualCompletionEnter() " {{{$/;"	f
+Map	delimitMate.vim	/^function! s:Map() "{{{$/;"	f
+MarkDirs	winfileexplorer.vim	/^function! s:MarkDirs()$/;"	f
+Max	minibufexpl.vim	/^function! <SID>Max(argOne, argTwo)$/;"	f
+MiniBufExplorer	minibufexpl.vim	/^  command! MiniBufExplorer  call <SID>StartExplorer(1, -1)$/;"	c
+MiniBufExplorer	minibufexpl.vim	/^augroup MiniBufExplorer$/;"	a
+MkViewNoNestedFolds	wintagexplorer.vim	/^function! s:MkViewNoNestedFolds()$/;"	f
+MoveCol	tablify.vim	/^function! <SID>MoveCol(direction)$/;"	f
+MoveRow	tablify.vim	/^function! <SID>MoveRow(direction)$/;"	f
+MultiByteStrlen	imaps.vim	/^function s:MultiByteStrlen(str)$/;"	f
+MultiByteStrpart	imaps.vim	/^function s:MultiByteStrpart(src,start,...)$/;"	f
+MySearch	SyntaxFolds.vim	/^function! <SID>MySearch(pat, opt)$/;"	f
+NextAlternate	a.vim	/^function! NextAlternate(bang)$/;"	f
+NoAutoClose	delimitMate.vim	/^function! s:NoAutoClose() "{{{$/;"	f
+OnlyExplorerWindowsOpen	winmanager.vim	/^function! <SID>OnlyExplorerWindowsOpen()$/;"	f
+OpenEntry	winfileexplorer.vim	/^function! s:OpenEntry()$/;"	f
+OpenEntryPrevWindow	winfileexplorer.vim	/^function! s:OpenEntryPrevWindow()$/;"	f
+OpenTag	wintagexplorer.vim	/^function! <SID>OpenTag(split)$/;"	f
+Path	winfileexplorer.vim	/^function! s:Path(p)$/;"	f
+Path	winmanager.vim	/^function! <SID>Path(p)$/;"	f
+Pop	SyntaxFolds.vim	/^function! Pop(name)$/;"	f
+PrintData	tablify.vim	/^function! <SID>PrintData(data, line)$/;"	f
+PrintFavDirs	winfileexplorer.vim	/^function! s:PrintFavDirs()$/;"	f
+PrintTable	tablify.vim	/^function! <SID>PrintTable(data, line)$/;"	f
+Push	SyntaxFolds.vim	/^function! Push(name, elem)$/;"	f
+QuickSortList	libList.vim	/^function QuickSortList( array, beg, end )$/;"	f
+Ragrep	grep.vim	/^command! -nargs=* -complete=file Ragrep$/;"	c
+RagrepAdd	grep.vim	/^command! -nargs=* -complete=file RagrepAdd$/;"	c
+Realign	tablify.vim	/^function! <SID>Realign(align) range$/;"	f
+Reconfigure	tablify.vim	/^function! <SID>Reconfigure()$/;"	f
+RefreshWinManager	winmanager.vim	/^function! <SID>RefreshWinManager(...)$/;"	f
+RegisterExplorerGroup	winmanager.vim	/^function! <SID>RegisterExplorerGroup()$/;"	f
+Regrep	grep.vim	/^command! -nargs=* -complete=file Regrep$/;"	c
+RegrepAdd	grep.vim	/^command! -nargs=* -complete=file RegrepAdd$/;"	c
+ReleaseKeyPresses	supertab.vim	/^function! s:ReleaseKeyPresses() " {{{$/;"	f
+RemoteInsert	remoteOpen.vim	/^com! -nargs=? RemoteInsert :call RemoteInsert('<args>')$/;"	c
+RemoteInsert	remoteOpen.vim	/^function! RemoteInsert(...)$/;"	f
+RemoteOpen	remoteOpen.vim	/^com! -nargs=1 RemoteOpen :call RemoteOpen('<args>')$/;"	c
+RemoteOpen	remoteOpen.vim	/^function! RemoteOpen(arglist)$/;"	f
+RemoveListItem	libList.vim	/^function RemoveListItem( array, index )$/;"	f
+RemoveSeparators	winfileexplorer.vim	/^function! s:RemoveSeparators()$/;"	f
+RenameFile	winfileexplorer.vim	/^function! s:RenameFile()$/;"	f
+RepairAltRegister	winmanager.vim	/^function! <SID>RepairAltRegister()$/;"	f
+ReplaceListItem	libList.vim	/^function ReplaceListItem( array, index, item )$/;"	f
+Reset	csExplorer.vim	/^function! <SID>Reset()$/;"	f
+ResizeAllExplorers	winmanager.vim	/^function! <SID>ResizeAllExplorers()$/;"	f
+ResizeWindow	minibufexpl.vim	/^function! <SID>ResizeWindow()$/;"	f
+RestoreFileDisplay	winfileexplorer.vim	/^function! s:RestoreFileDisplay()$/;"	f
+Rfgrep	grep.vim	/^command! -nargs=* -complete=file Rfgrep$/;"	c
+RfgrepAdd	grep.vim	/^command! -nargs=* -complete=file RfgrepAdd$/;"	c
+Rgrep	grep.vim	/^command! -nargs=* -complete=file Rgrep$/;"	c
+RgrepAdd	grep.vim	/^command! -nargs=* -complete=file RgrepAdd$/;"	c
+RunGrep	grep.vim	/^function! s:RunGrep(cmd_name, grep_cmd, action, ...)$/;"	f
+RunGrepCmd	grep.vim	/^function! s:RunGrepCmd(cmd, pattern, action)$/;"	f
+RunGrepRecursive	grep.vim	/^function! s:RunGrepRecursive(cmd_name, grep_cmd, action, ...)$/;"	f
+RunGrepSpecial	grep.vim	/^function! s:RunGrepSpecial(cmd_name, which, action, ...)$/;"	f
+SVarValueWinManager	winmanager.vim	/^	command -nargs=* SVarValueWinManager :call <SID>ShowVariableValue(<args>)$/;"	c
+Select	tablify.vim	/^function! <SID>Select()$/;"	f
+SelectCompletion	supertab.vim	/^    function! s:SelectCompletion(cr)$/;"	f
+SelectScheme	csExplorer.vim	/^function! <SID>SelectScheme()$/;"	f
+SetCompletionType	supertab.vim	/^function! s:SetCompletionType() " {{{$/;"	f
+SetDefaultCompletionType	supertab.vim	/^function! s:SetDefaultCompletionType() " {{{$/;"	f
+SetNotificationColor	tex_atp.vim	/^fun! s:SetNotificationColor() "{{{1$/;"	f
+SetSuffixesLast	winfileexplorer.vim	/^function! s:SetSuffixesLast()$/;"	f
+Sexplore	winfileexplorer.vim	/^		command -n=? -complete=dir Sexplore :call s:StartExplorer(1, '<a>')$/;"	c
+ShellExecute	winfileexplorer.vim	/^function! s:ShellExecute()$/;"	f
+ShowAllFiles	winfileexplorer.vim	/^function! s:ShowAllFiles()$/;"	f
+ShowBuffers	minibufexpl.vim	/^function! <SID>ShowBuffers(delBufNum)$/;"	f
+ShowDirectory	winfileexplorer.vim	/^function! s:ShowDirectory()$/;"	f
+ShowVariableValue	winmanager.vim	/^function! <SID>ShowVariableValue(...)$/;"	f
+Snip	imaps.vim	/^com! -nargs=0 -range Snip :<line1>,<line2>call <SID>Snip()$/;"	c
+Snip	imaps.vim	/^function! <SID>Snip() range$/;"	f
+Sort	tablify.vim	/^function! <SID>Sort() range$/;"	f
+Sort	winfileexplorer.vim	/^function! s:Sort(cmp,direction) range$/;"	f
+SortListing	winfileexplorer.vim	/^function! s:SortListing(msg)$/;"	f
+SortR	winfileexplorer.vim	/^function! s:SortR(start, end, cmp, direction)$/;"	f
+SortReverse	winfileexplorer.vim	/^function! s:SortReverse()$/;"	f
+SortSelect	winfileexplorer.vim	/^function! s:SortSelect()$/;"	f
+StartExplorer	minibufexpl.vim	/^function! <SID>StartExplorer(sticky, delBufNum)$/;"	f
+StartExplorer	winfileexplorer.vim	/^function! s:StartExplorer(split, start_dir)$/;"	f
+StartTagsFileDisplay	wintagexplorer.vim	/^function! <SID>StartTagsFileDisplay()$/;"	f
+StartWindowsManager	winmanager.vim	/^function! <SID>StartWindowsManager()$/;"	f
+StopExplorer	minibufexpl.vim	/^function! <SID>StopExplorer(sticky)$/;"	f
+StrCmp	winfileexplorer.vim	/^function! s:StrCmp(line1, line2, direction)$/;"	f
+Strntok	SyntaxFolds.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f
+Strntok	imaps.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f
+Strntok	remoteOpen.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f
+Strntok	winmanager.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f
+Strntok	wintagexplorer.vim	/^fun! <SID>Strntok(s, tok, n)$/;"	f
+Strntok2	winmanager.vim	/^fun! <SID>Strntok2(s, tok, n)$/;"	f
+SuperTab	supertab.vim	/^function! SuperTab(command) " {{{$/;"	f
+SuperTabAlternateCompletion	supertab.vim	/^function! SuperTabAlternateCompletion(type) " {{{$/;"	f
+SuperTabChain	supertab.vim	/^function! SuperTabChain(completefunc, completekeys) " {{{$/;"	f
+SuperTabCodeComplete	supertab.vim	/^function! SuperTabCodeComplete(findstart, base) " {{{$/;"	f
+SuperTabHelp	supertab.vim	/^    command SuperTabHelp :call <SID>SuperTabHelp()$/;"	c
+SuperTabHelp	supertab.vim	/^function! s:SuperTabHelp() " {{{$/;"	f
+SuperTabLongestHighlight	supertab.vim	/^function! SuperTabLongestHighlight(dir) " {{{$/;"	f
+SuperTabSetCompletionType	supertab.vim	/^function! SuperTabSetCompletionType(type) " {{{$/;"	f
+SuperTabSetDefaultCompletionType	supertab.vim	/^function! SuperTabSetDefaultCompletionType(type) " {{{$/;"	f
+TBBlue	txtbrowser.vim	/^command! -nargs=? -bar TBBlue call s:TBBlue(<args>)$/;"	c
+TBBlue	txtbrowser.vim	/^function! s:TBBlue (text)$/;"	f
+TBBold	txtbrowser.vim	/^command! -nargs=? -bar TBBold call s:TBBold(<args>)$/;"	c
+TBBold	txtbrowser.vim	/^function! s:TBBold (text)$/;"	f
+TBEscape	txtbrowser.vim	/^function! s:TBEscape (text)$/;"	f
+TBGreen	txtbrowser.vim	/^command! -nargs=? -bar TBGreen call s:TBGreen(<args>)$/;"	c
+TBGreen	txtbrowser.vim	/^function! s:TBGreen (text)$/;"	f
+TBItalic	txtbrowser.vim	/^command! -nargs=? -bar TBItalic call s:TBItalic(<args>)$/;"	c
+TBItalic	txtbrowser.vim	/^function! s:TBItalic (text)$/;"	f
+TBMatch	txtbrowser.vim	/^command! -nargs=? -bar TBMatch call s:TBMatch(<args>)$/;"	c
+TBMatch	txtbrowser.vim	/^function! s:TBMatch (text)$/;"	f
+TBRed	txtbrowser.vim	/^command! -nargs=? -bar TBRed call s:TBRed(<args>)$/;"	c
+TBRed	txtbrowser.vim	/^function! s:TBRed (text)$/;"	f
+TE_ShowVariableValue	wintagexplorer.vim	/^function! TE_ShowVariableValue(...)$/;"	f
+TFind	txtbrowser.vim	/^command! -nargs=? -bar TFind call s:TxtBrowserWord(<f-args>)$/;"	c
+TGoto	txtbrowser.vim	/^command! -nargs=? -bar TGoto call s:TxtbrowserGoto(<f-args>)$/;"	c
+TMiniBufExplorer	minibufexpl.vim	/^  command! TMiniBufExplorer  call <SID>ToggleExplorer()$/;"	c
+TSearch	txtbrowser.vim	/^command! -nargs=? -bar TSearch call s:TxtBrowserSearch(<f-args>)$/;"	c
+Tablify	tablify.vim	/^function! <SID>Tablify(align) range$/;"	f
+TagList_IsValid	taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+TagsExplorer_IsPossible	wintagexplorer.vim	/^function! TagsExplorer_IsPossible()$/;"	f
+TagsExplorer_IsValid	wintagexplorer.vim	/^function! TagsExplorer_IsValid()$/;"	f
+TagsExplorer_Start	wintagexplorer.vim	/^function! TagsExplorer_Start()$/;"	f
+TagsExplorer_WrapUp	wintagexplorer.vim	/^function! TagsExplorer_WrapUp()$/;"	f
+TestSuperTabCodeComplete	supertab.vim	/^function! TestSuperTabCodeComplete(findstart, base) " {{{$/;"	f
+TexLogCurrentFile	tex_atp.vim	/^function! TexLogCurrentFile() " {{{1$/;"	f
+TexLogSettings	tex_atp.vim	/^function! <SID>TexLogSettings(fname) "{{{1$/;"	f
+Texdef	tex_atp.vim	/^    command! -bang -nargs=* Texdef :call atplib#tools#TexDef(<q-bang>,<q-args>)$/;"	c
+Texdoc	tex_atp.vim	/^	    \\  Texdoc					:call atplib#various#TexDoc(<f-args>)$/;"	c
+Tlist	taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Add_Files	taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+Tlist_Add_Files_Recursive	taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+Tlist_Auto_Highlight_Tag	taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Update	taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Buffer_Removed	taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+Tlist_Change_Sort	taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+Tlist_Close_On_Select	taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Create_Folds_For_File	taglist.vim	/^function! s:Tlist_Create_Folds_For_File(fidx)$/;"	f
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Debug_Disable	taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+Tlist_Debug_Enable	taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+Tlist_Debug_Show	taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+Tlist_Detect_Filetype	taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+Tlist_Discard_FileInfo	taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+Tlist_Discard_TagInfo	taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+Tlist_Display_Prototype	taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exe_Cmd_No_Acmds	taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+Tlist_Exit_OnlyWindow	taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Extract_Tag_Scope	taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+Tlist_Extract_Tagtype	taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+Tlist_FileType_Init	taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+Tlist_File_Fold_Auto_Close	taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_Find_Nearest_Tag_Idx	taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+Tlist_GainFocus_On_ToggleOpen	taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Buffer_Filetype	taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+Tlist_Get_File_Index	taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+Tlist_Get_Filenames	taglist.vim	/^function! Tlist_Get_Filenames()$/;"	f
+Tlist_Get_Tag_Linenum	taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype	taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype_By_Line	taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tag_Scope	taglist.vim	/^function! s:Tlist_Get_Tag_Scope(fidx, tidx)$/;"	f
+Tlist_Get_Tag_SearchPat	taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Type_By_Tag	taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+Tlist_Get_Tagname_By_Line	taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Init_File	taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+Tlist_Log_Msg	taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+Tlist_Max_Submenu_Items	taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Menu_Add_Base_Menu	taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+Tlist_Menu_File_Refresh	taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+Tlist_Menu_Get_Tag_Type_Cmd	taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+Tlist_Menu_Init	taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+Tlist_Menu_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+Tlist_Menu_Refresh	taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+Tlist_Menu_Remove_File	taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+Tlist_Menu_Update_File	taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+Tlist_Parse_Tagline	taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+Tlist_Post_Close_Cleanup	taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+Tlist_Process_Dir	taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+Tlist_Process_File	taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+Tlist_Process_File_Always	taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Process_Filelist	taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+Tlist_Refresh	taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+Tlist_Refresh_Folds	taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+Tlist_Remove_File	taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+Tlist_Session_Load	taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+Tlist_Session_Save	taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+Tlist_Set_App	taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Skip_File	taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+Tlist_Sort_Type	taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Update_Current_File	taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+Tlist_Update_File	taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Update_Remove_List	taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+Tlist_Use_Horiz_Window	taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Right_Window	taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_User_Removed_File	taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+Tlist_Vim_Session_Load	taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+Tlist_Warning_Msg	taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+Tlist_WinHeight	taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_Window_Check_Auto_Open	taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+Tlist_Window_Check_Width	taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+Tlist_Window_Close	taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+Tlist_Window_Create	taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+Tlist_Window_Display_Help	taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+Tlist_Window_Exit_Only_Window	taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+Tlist_Window_Get_File_Index_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+Tlist_Window_Get_Tag_Index	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+Tlist_Window_Get_Tag_Type_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+Tlist_Window_Goto_Window	taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+Tlist_Window_Highlight_Line	taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+Tlist_Window_Highlight_Tag	taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+Tlist_Window_Init	taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+Tlist_Window_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+Tlist_Window_Mark_File_Window	taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+Tlist_Window_Move_To_File	taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+Tlist_Window_Open	taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+Tlist_Window_Open_File	taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+Tlist_Window_Open_File_Fold	taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+Tlist_Window_Refresh	taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+Tlist_Window_Refresh_File	taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+Tlist_Window_Remove_File_From_Display	taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+Tlist_Window_Show_Info	taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+Tlist_Window_Toggle	taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+Tlist_Window_Toggle_Help_Text	taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+Tlist_Window_Update_File	taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+Tlist_Window_Update_Line_Offsets	taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+Tlist_Window_Zoom	taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+ToggleExplorer	minibufexpl.vim	/^function! <SID>ToggleExplorer()$/;"	f
+ToggleHelp	csExplorer.vim	/^function! <SID>ToggleHelp()$/;"	f
+ToggleHelp	winfileexplorer.vim	/^function! s:ToggleHelp()$/;"	f
+ToggleLongList	winfileexplorer.vim	/^function! s:ToggleLongList()$/;"	f
+ToggleShowHiddenFiles	winfileexplorer.vim	/^function! <SID>ToggleShowHiddenFiles()$/;"	f
+ToggleWindowsManager	winmanager.vim	/^function! <SID>ToggleWindowsManager()$/;"	f
+TriggerAbb	delimitMate.vim	/^function! s:TriggerAbb() "{{{$/;"	f
+TxtBrowserSearch	txtbrowser.vim	/^function! s:TxtBrowserSearch (...) range$/;"	f
+TxtBrowserToggleFt	txtbrowser.vim	/^function! s:TxtBrowserToggleFt ()$/;"	f
+TxtBrowserWord	txtbrowser.vim	/^function! s:TxtBrowserWord (...) range$/;"	f
+TxtBrowser_Dict_Url	txtbrowser.vim	/^    let TxtBrowser_Dict_Url = 'http:\/\/www.google.com\/dictionary?aq=f&langpair=en|zh-CN&q=text&hl=zh-CN'$/;"	v
+TxtbrowserGoto	txtbrowser.vim	/^function! s:TxtbrowserGoto(...)$/;"	f
+TxtbrowserOpenUrl	txtbrowser.vim	/^function! s:TxtbrowserOpenUrl (url)$/;"	f
+Txtbrowser_Search_Engine	txtbrowser.vim	/^    let Txtbrowser_Search_Engine = 'http:\/\/www.google.com\/search?hl=zh-CN&source=hp&q=text&btnG=Google+%E6%90%9C%E7%B4%A2&lr=&aq=f&oq='$/;"	v
+UMiniBufExplorer	minibufexpl.vim	/^  command! UMiniBufExplorer  call <SID>AutoUpdate(-1)$/;"	c
+Unmap	delimitMate.vim	/^function! s:Unmap() " {{{$/;"	f
+Untablify	tablify.vim	/^function! <SID>Untablify() range$/;"	f
+UpdateATP	tex_atp.vim	/^command! -bang	UpdateATP				:call atplib#various#UpdateATP(<q-bang>)$/;"	c
+UpdateHeader	winfileexplorer.vim	/^function! s:UpdateHeader()$/;"	f
+VEnclose	imaps.vim	/^function! VEnclose(vstart, vend, VStart, VEnd)$/;"	f
+Vm_get_line_number	visualmark.vim	/^fun! s:Vm_get_line_number(string)$/;"	f
+Vm_get_next_sign_line	visualmark.vim	/^fun! s:Vm_get_next_sign_line(curr_line_number)$/;"	f
+Vm_get_prev_sign_line	visualmark.vim	/^fun! s:Vm_get_prev_sign_line(curr_line_number)$/;"	f
+Vm_get_sign_id_from_line	visualmark.vim	/^fun! s:Vm_get_sign_id_from_line(line_number)$/;"	f
+Vm_goto_next_sign	visualmark.vim	/^fun! Vm_goto_next_sign()$/;"	f
+Vm_goto_prev_sign	visualmark.vim	/^fun! Vm_goto_prev_sign()$/;"	f
+Vm_place_sign	visualmark.vim	/^fun! s:Vm_place_sign()$/;"	f
+Vm_remove_all_signs	visualmark.vim	/^fun! s:Vm_remove_all_signs()$/;"	f
+Vm_remove_sign	visualmark.vim	/^fun! s:Vm_remove_sign(sign_id)$/;"	f
+Vm_toggle_sign	visualmark.vim	/^fun! Vm_toggle_sign()$/;"	f
+WMClose	winmanager.vim	/^	command -nargs=0 WMClose :silent call <SID>CloseWindowsManager()$/;"	c
+WMReset	winmanager.vim	/^	command -nargs=0 WMReset :silent call <SID>WinManagerReset()$/;"	c
+WMToggle	winmanager.vim	/^	command -nargs=0 WMToggle :silent call <SID>ToggleWindowsManager()$/;"	c
+WM_ERRORMSG	winmanager.vim	/^function! WM_ERRORMSG(eline)$/;"	f
+WManager	winmanager.vim	/^	command -nargs=0 WManager :silent call <SID>StartWindowsManager()$/;"	c
+WhichMemberVisible	winmanager.vim	/^function! <SID>WhichMemberVisible(i)$/;"	f
+WillComplete	supertab.vim	/^function! s:WillComplete(...) " {{{$/;"	f
+WinManagerAUSuspended	winmanager.vim	/^function! WinManagerAUSuspended()$/;"	f
+WinManagerFileEdit	winmanager.vim	/^function! WinManagerFileEdit(bufName, split)$/;"	f
+WinManagerForceReSize	winmanager.vim	/^function! WinManagerForceReSize(explName)$/;"	f
+WinManagerGetLastEditedFile	winmanager.vim	/^function! WinManagerGetLastEditedFile(...)$/;"	f
+WinManagerGotoNextInGroup	winmanager.vim	/^	command -nargs=1 WinManagerGotoNextInGroup :silent call <SID>GotoNextExplorerInGroup(<args>)$/;"	c
+WinManagerGotoPrevInGroup	winmanager.vim	/^	command -nargs=1 WinManagerGotoPrevInGroup :silent call <SID>GotoNextExplorerInGroup(<args>,-1)$/;"	c
+WinManagerReset	winmanager.vim	/^function! s:WinManagerReset()$/;"	f
+WinManagerResumeAUs	winmanager.vim	/^function! WinManagerResumeAUs()$/;"	f
+WinManagerSuspendAUs	winmanager.vim	/^function! WinManagerSuspendAUs()$/;"	f
+alternateExtensionsDict	a.vim	/^let alternateExtensionsDict = {}$/;"	v
+cr	supertab.vim	/^      let cr = (map =~? '\\(^\\|[^)]\\)<cr>')$/;"	v
+data	tablify.vim	/^    let data['data'] = newData[:]$/;"	v
+data	tablify.vim	/^    let data['rowLinesCnt'] = rowLinesCnt$/;"	v
+delimitMate	delimitMate.vim	/^augroup delimitMate$/;"	a
+delimitMate_version	delimitMate.vim	/^let delimitMate_version = "2.8"$/;"	v
+existing	supertab.vim	/^    let existing = maparg('<tab>', 'i')$/;"	v
+expr_map	supertab.vim	/^      let expr_map = has_key(map_dict, 'expr') && map_dict.expr$/;"	v
+expr_map	supertab.vim	/^      let expr_map = maparg('<cr>', 'i') =~? '\\<cr>'$/;"	v
+expr_map	supertab.vim	/^    let expr_map = 0$/;"	v
+fileExplorer	winmanager.vim	/^	augroup fileExplorer$/;"	a
+from	tablify.vim	/^                let from = i$/;"	v
+g:FileExplorer_title	winfileexplorer.vim	/^let g:FileExplorer_title = "[File List]"$/;"	v
+g:Imap_Debug	imaps.vim	/^	let g:Imap_Debug = 0$/;"	v
+g:Imap_DeleteEmptyPlaceHolders	imaps.vim	/^	let g:Imap_DeleteEmptyPlaceHolders = 1$/;"	v
+g:Imap_StickyPlaceHolders	imaps.vim	/^	let g:Imap_StickyPlaceHolders = 1$/;"	v
+g:SuperTabClosePreviewOnPopupClose	supertab.vim	/^    let g:SuperTabClosePreviewOnPopupClose = 0$/;"	v
+g:SuperTabCompletionContexts	supertab.vim	/^    let g:SuperTabCompletionContexts = ['s:ContextText']$/;"	v
+g:SuperTabContextDefaultCompletionType	supertab.vim	/^    let g:SuperTabContextDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabCrMapping	supertab.vim	/^    let g:SuperTabCrMapping = 1$/;"	v
+g:SuperTabDefaultCompletionType	supertab.vim	/^    let g:SuperTabDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabLongestEnhanced	supertab.vim	/^    let g:SuperTabLongestEnhanced = 0$/;"	v
+g:SuperTabLongestHighlight	supertab.vim	/^    let g:SuperTabLongestHighlight = 0$/;"	v
+g:SuperTabMappingBackward	supertab.vim	/^    let g:SuperTabMappingBackward = '<s-tab>'$/;"	v
+g:SuperTabMappingForward	supertab.vim	/^    let g:SuperTabMappingForward = '<tab>'$/;"	v
+g:SuperTabMappingTabLiteral	supertab.vim	/^    let g:SuperTabMappingTabLiteral = '<c-tab>'$/;"	v
+g:SuperTabNoCompleteAfter	supertab.vim	/^      let g:SuperTabNoCompleteAfter = ['^', '\\s']$/;"	v
+g:SuperTabNoCompleteAfter	supertab.vim	/^      let g:SuperTabNoCompleteAfter = []$/;"	v
+g:SuperTabNoCompleteBefore	supertab.vim	/^      let g:SuperTabNoCompleteBefore = ['\\k']$/;"	v
+g:SuperTabNoCompleteBefore	supertab.vim	/^      let g:SuperTabNoCompleteBefore = []$/;"	v
+g:SuperTabRetainCompletionDuration	supertab.vim	/^    let g:SuperTabRetainCompletionDuration = 'insert'$/;"	v
+g:SuperTabUndoBreak	supertab.vim	/^    let g:SuperTabUndoBreak = 0$/;"	v
+g:TagsExplorerSkipError	wintagexplorer.vim	/^	let g:TagsExplorerSkipError = 0$/;"	v
+g:TagsExplorer_title	wintagexplorer.vim	/^let g:TagsExplorer_title = "[Tag List]"$/;"	v
+g:alternateNoDefaultAlternate	a.vim	/^   let g:alternateNoDefaultAlternate = 0$/;"	v
+g:alternateRelativeFiles	a.vim	/^   let g:alternateRelativeFiles = 0$/;"	v
+g:alternateSearchPath	a.vim	/^  let g:alternateSearchPath = 'sfr:..\/source,sfr:..\/src,sfr:..\/include,sfr:..\/inc'$/;"	v
+g:atp_developer	tex_atp.vim	/^    let g:atp_developer = 0$/;"	v
+g:debugWinManager	winmanager.vim	/^let g:debugWinManager = 1$/;"	v
+g:defaultExplorer	winfileexplorer.vim	/^	let g:defaultExplorer = 1$/;"	v
+g:defaultExplorer	winmanager.vim	/^	let g:defaultExplorer = 1$/;"	v
+g:explDateFormat	winfileexplorer.vim	/^  let g:explDateFormat="%d %b %Y %H:%M"$/;"	v
+g:explDetailedHelp	winfileexplorer.vim	/^  let g:explDetailedHelp=0$/;"	v
+g:explDetailedList	winfileexplorer.vim	/^  let g:explDetailedList=0$/;"	v
+g:explDirsFirst	winfileexplorer.vim	/^  let g:explDirsFirst=1$/;"	v
+g:explHideFiles	winfileexplorer.vim	/^  let g:explHideFiles=''$/;"	v
+g:explShowHiddenFiles	winfileexplorer.vim	/^	let g:explShowHiddenFiles = 0$/;"	v
+g:explSortBy	winfileexplorer.vim	/^  let g:explSortBy='name'$/;"	v
+g:explSplitBelow	winfileexplorer.vim	/^  let g:explSplitBelow = &splitbelow$/;"	v
+g:explSplitRight	winfileexplorer.vim	/^  let g:explSplitRight = &splitright$/;"	v
+g:explStartBelow	winfileexplorer.vim	/^  let g:explStartBelow = g:explSplitBelow$/;"	v
+g:explStartRight	winfileexplorer.vim	/^  let g:explStartRight = g:explSplitRight$/;"	v
+g:explSuffixesLast	winfileexplorer.vim	/^  let g:explSuffixesLast=1$/;"	v
+g:explUseSeparators	winfileexplorer.vim	/^  let g:explUseSeparators=0$/;"	v
+g:explVertical	winfileexplorer.vim	/^  let g:explVertical=0$/;"	v
+g:explWinSize	winfileexplorer.vim	/^  let g:explWinSize=15$/;"	v
+g:listSep	libList.vim	/^let g:listSep = ","$/;"	v
+g:loaded_delimitMate	delimitMate.vim	/^let g:loaded_delimitMate = 1$/;"	v
+g:loaded_tablify	tablify.vim	/^let g:loaded_tablify = 1$/;"	v
+g:miniBufExplBufList	minibufexpl.vim	/^  let g:miniBufExplBufList = ''$/;"	v
+g:miniBufExplDoneClickSave	minibufexpl.vim	/^    let  g:miniBufExplDoneClickSave = 1$/;"	v
+g:miniBufExplForceDisplay	minibufexpl.vim	/^  let g:miniBufExplForceDisplay = 0$/;"	v
+g:miniBufExplForceSyntaxEnable	minibufexpl.vim	/^  let g:miniBufExplForceSyntaxEnable = 0$/;"	v
+g:miniBufExplInAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplInAutoUpdate = 0$/;"	v
+g:miniBufExplMapCTabSwitchBufs	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchBufs = 0$/;"	v
+g:miniBufExplMapCTabSwitchWindows	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchWindows = 0$/;"	v
+g:miniBufExplMapWindowNav	minibufexpl.vim	/^  let g:miniBufExplMapWindowNav = 0$/;"	v
+g:miniBufExplMapWindowNavArrows	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavArrows = 0$/;"	v
+g:miniBufExplMapWindowNavVim	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavVim = 0$/;"	v
+g:miniBufExplMaxHeight	minibufexpl.vim	/^  let g:miniBufExplMaxHeight = 0$/;"	v
+g:miniBufExplMaxSize	minibufexpl.vim	/^  let g:miniBufExplMaxSize = g:miniBufExplMaxHeight$/;"	v
+g:miniBufExplMinHeight	minibufexpl.vim	/^  let g:miniBufExplMinHeight = 1$/;"	v
+g:miniBufExplMinSize	minibufexpl.vim	/^  let g:miniBufExplMinSize = g:miniBufExplMinHeight$/;"	v
+g:miniBufExplModSelTarget	minibufexpl.vim	/^  let g:miniBufExplModSelTarget = 0$/;"	v
+g:miniBufExplSplitBelow	minibufexpl.vim	/^  let g:miniBufExplSplitBelow = &splitbelow$/;"	v
+g:miniBufExplSplitToEdge	minibufexpl.vim	/^  let g:miniBufExplSplitToEdge = 1$/;"	v
+g:miniBufExplTabWrap	minibufexpl.vim	/^  let g:miniBufExplTabWrap = 0$/;"	v
+g:miniBufExplUseSingleClick	minibufexpl.vim	/^  let g:miniBufExplUseSingleClick = 0$/;"	v
+g:miniBufExplVSplit	minibufexpl.vim	/^  let g:miniBufExplVSplit = 0$/;"	v
+g:miniBufExplorerAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplorerAutoUpdate = 0$/;"	v
+g:miniBufExplorerDebugLevel	minibufexpl.vim	/^  let g:miniBufExplorerDebugLevel = 0 $/;"	v
+g:miniBufExplorerDebugMode	minibufexpl.vim	/^  let g:miniBufExplorerDebugMode = 3 $/;"	v
+g:miniBufExplorerDebugOutput	minibufexpl.vim	/^  let g:miniBufExplorerDebugOutput = ''$/;"	v
+g:miniBufExplorerMoreThanOne	minibufexpl.vim	/^  let g:miniBufExplorerMoreThanOne = 2$/;"	v
+g:numRefs	winmanager.vim	/^let g:numRefs = 0$/;"	v
+g:persistentBehaviour	winmanager.vim	/^	let g:persistentBehaviour = 1$/;"	v
+g:saveTagsDisplay	wintagexplorer.vim	/^	let g:saveTagsDisplay = 1$/;"	v
+g:txtbrowser_version	txtbrowser.vim	/^let g:txtbrowser_version = "1.3.4"$/;"	v
+g:winManagerAutoOpen	winmanager.vim	/^	let g:winManagerAutoOpen = 0$/;"	v
+g:winManagerOnRightSide	winmanager.vim	/^	let g:winManagerOnRightSide = 0$/;"	v
+g:winManagerWidth	winmanager.vim	/^	let g:winManagerWidth = 25$/;"	v
+g:winManagerWindowLayout	winmanager.vim	/^	let g:winManagerWindowLayout = "FileExplorer,TagsExplorer|BufExplorer"$/;"	v
+get	delimitMate.vim	/^function! s:get(...) " {{{$/;"	f
+iabbrev_map	supertab.vim	/^    let iabbrev_map = iabbrevs =~? '\\<cr>'$/;"	v
+init	delimitMate.vim	/^function! s:init() "{{{$/;"	f
+isTableInnerRow	tablify.vim	/^function! <SID>isTableInnerRow(line)$/;"	f
+isTableRow	tablify.vim	/^function! <SID>isTableRow(line)$/;"	f
+linesCnt	tablify.vim	/^    let linesCnt = a:lastline - a:firstline$/;"	v
+loaded_VisualMark	visualmark.vim	/^let loaded_VisualMark = 1$/;"	v
+loaded_alternateFile	a.vim	/^let loaded_alternateFile = 1$/;"	v
+loaded_csExplorer	csExplorer.vim	/^let loaded_csExplorer = 1$/;"	v
+loaded_explorer	winfileexplorer.vim	/^	let loaded_explorer = 1$/;"	v
+loaded_explorer	winmanager.vim	/^	let loaded_explorer = 1$/;"	v
+loaded_grep	grep.vim	/^let loaded_grep = 1$/;"	v
+loaded_libList	libList.vim	/^let loaded_libList=1$/;"	v
+loaded_minibufexplorer	minibufexpl.vim	/^let loaded_minibufexplorer = 1$/;"	v
+loaded_supertab	supertab.vim	/^let loaded_supertab = 1$/;"	v
+loaded_taglist	taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+loaded_winfileexplorer	winfileexplorer.vim	/^let loaded_winfileexplorer=1$/;"	v
+loaded_winmanager	winmanager.vim	/^let loaded_winmanager = 1$/;"	v
+map	supertab.vim	/^      let map = maparg('<cr>', 'i')$/;"	v
+map	supertab.vim	/^      let map = s:ExpandMap(map)$/;"	v
+map_dict	supertab.vim	/^      let map_dict = maparg('<cr>', 'i', 0, 1)$/;"	v
+option_init	delimitMate.vim	/^function! s:option_init(name, default) "{{{$/;"	f
+rowLinesCnt	tablify.vim	/^    let rowLinesCnt = <SID>GetRowLinesCount(values)$/;"	v
+s:Mark	imaps.vim	/^let s:Mark = "(0,0)"$/;"	v
+s:RemoveLastHistoryItem	imaps.vim	/^let s:RemoveLastHistoryItem = ':call histdel("\/", -1)|let @\/=g:Tex_LastSearchPattern'$/;"	v
+s:Tab	supertab.vim	/^      let s:Tab = function(substitute(existing, '()$', '', ''))$/;"	v
+s:Tlist_Skip_Refresh	taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:clickmap	minibufexpl.vim	/^  let s:clickmap = ':if bufname("%") == "-MiniBufExplorer-" <bar> call <SID>MBEClick() <bar> endif <CR>'$/;"	v
+s:commandRunning	winmanager.vim	/^let s:commandRunning = 0$/;"	v
+s:cpo_save	grep.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	taglist.vim	/^    let s:cpo_save = &cpo$/;"	v
+s:cpo_save	txtbrowser.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	winfileexplorer.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	winmanager.vim	/^let s:cpo_save = &cpo$/;"	v
+s:debugIndex	minibufexpl.vim	/^let s:debugIndex = 0 $/;"	v
+s:escfilename	winfileexplorer.vim	/^  let s:escfilename = ' %#'$/;"	v
+s:escfilename	winfileexplorer.vim	/^  let s:escfilename = ' \\%#'$/;"	v
+s:escfilename	winmanager.vim	/^	let s:escfilename = ' %#'$/;"	v
+s:escfilename	winmanager.vim	/^	let s:escfilename = ' \\%#'$/;"	v
+s:escregexp	winfileexplorer.vim	/^let s:escregexp = '\/*^$.~\\'$/;"	v
+s:favDirs	winfileexplorer.vim	/^		let s:favDirs = expand('$HOME').'\/'$/;"	v
+s:favDirs	winfileexplorer.vim	/^		let s:favDirs = g:favDirs."\\\/\\n".expand('$HOME')$/;"	v
+s:favDirs	winfileexplorer.vim	/^let s:favDirs = substitute(s:favDirs, '\\', '\/', 'g')$/;"	v
+s:favDirs	winfileexplorer.vim	/^let s:favDirs = substitute(s:favDirs, '\\\/\\\/', '\\\/', 'g')$/;"	v
+s:initBlanks	imaps.vim	/^let s:initBlanks = ''$/;"	v
+s:loaded_delimitMate	delimitMate.vim	/^let s:loaded_delimitMate = 1$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = ':nnoremap <silent> <LEFTMOUSE> <LEFTMOUSE>'$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = s:m . s:clickmap$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = s:m . substitute(substitute(maparg('<LEFTMOUSE>', 'n'), '|', '<bar>', 'g'), '\\c^<LEFTMOUSE>', '', '')$/;"	v
+s:maxDotsInExtension	a.vim	/^let s:maxDotsInExtension = 1$/;"	v
+s:maxTabWidth	minibufexpl.vim	/^let s:maxTabWidth = 0 $/;"	v
+s:menu_char_prefix	taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:modes	supertab.vim	/^  let s:modes = '\/^E\/^Y\/^L\/^N\/^K\/^T\/^I\/^]\/^F\/^D\/^V\/^P\/^U\/^O\/s'$/;"	v
+s:modes	supertab.vim	/^  let s:modes = s:modes . '\/n\/p'$/;"	v
+s:numExplorerGroups	winmanager.vim	/^let s:numExplorerGroups = 0$/;"	v
+s:numExplorers	winmanager.vim	/^let s:numExplorers = 0$/;"	v
+s:save_cpo	filebrowser.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	imaps.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	supertab.vim	/^let s:save_cpo=&cpo$/;"	v
+s:savedCursorCol	wintagexplorer.vim	/^let s:savedCursorCol = 1$/;"	v
+s:savedCursorRow	wintagexplorer.vim	/^let s:savedCursorRow = 1$/;"	v
+s:separator	winfileexplorer.vim	/^let s:separator='"---------------------------------------------------'$/;"	v
+s:tabHelp	supertab.vim	/^  let s:tabHelp =$/;"	v
+s:tablify_debug	tablify.vim	/^let s:tablify_debug = 0$/;"	v
+s:tlist_app_name	taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_ant_settings	taglist.vim	/^let s:tlist_def_ant_settings = 'ant;p:projects;t:targets'$/;"	v
+s:tlist_def_asm_settings	taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	taglist.vim	/^let s:tlist_def_aspperl_settings =$/;"	v
+s:tlist_def_aspvbs_settings	taglist.vim	/^let s:tlist_def_aspvbs_settings =$/;"	v
+s:tlist_def_awk_settings	taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_basic_settings	taglist.vim	/^let s:tlist_def_basic_settings =$/;"	v
+s:tlist_def_beta_settings	taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_d_settings	taglist.vim	/^let s:tlist_def_d_settings = 'c++;n:namespace;v:variable;t:typedef;' .$/;"	v
+s:tlist_def_dosbatch_settings	taglist.vim	/^let s:tlist_def_dosbatch_settings = 'dosbatch;l:labels;v:variables'$/;"	v
+s:tlist_def_eiffel_settings	taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_flex_settings	taglist.vim	/^let s:tlist_def_flex_settings = 'flex;v:global;c:classes;p:properties;'.$/;"	v
+s:tlist_def_fortran_settings	taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_go_settings	taglist.vim	/^let s:tlist_def_go_settings = 'go;f:function;p:package;t:struct'$/;"	v
+s:tlist_def_html_settings	taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:function'$/;"	v
+s:tlist_def_java_settings	taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	taglist.vim	/^let s:tlist_def_javascript_settings =$/;"	v
+s:tlist_def_lisp_settings	taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_matlab_settings	taglist.vim	/^let s:tlist_def_matlab_settings = 'matlab;f:function'$/;"	v
+s:tlist_def_ocamal_settings	taglist.vim	/^let s:tlist_def_ocamal_settings = 'ocamal;M:module;v:global;t:type;'.$/;"	v
+s:tlist_def_pascal_settings	taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	taglist.vim	/^let s:tlist_def_php_settings =$/;"	v
+s:tlist_def_python_settings	taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	taglist.vim	/^let s:tlist_def_sql_settings = 'sql;f:functions;' .$/;"	v
+s:tlist_def_tcl_settings	taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_tex_settings	taglist.vim	/^let s:tlist_def_tex_settings = 'tex;c:chapters;s:sections;u:subsections;'.$/;"	v
+s:tlist_def_vera_settings	taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vhdl_settings	taglist.vim	/^let s:tlist_def_vhdl_settings = 'vhdl;c:constant;t:type;T:subtype;r:record;e:entity;f:function;p:procedure;P:package'$/;"	v
+s:tlist_def_vim_settings	taglist.vim	/^let s:tlist_def_vim_settings =$/;"	v
+s:tlist_def_yacc_settings	taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:types	supertab.vim	/^  let s:types = s:types . "np"$/;"	v
+s:types	supertab.vim	/^  let s:types =$/;"	v
+save_cpo	delimitMate.vim	/^let save_cpo = &cpo$/;"	v
+set	delimitMate.vim	/^function! s:set(...) " {{{$/;"	f
+setup	delimitMate.vim	/^function! s:setup(...) "{{{$/;"	f
+sortedValues	tablify.vim	/^        let sortedValues = sort(columnData, "<SID>NumericSort")$/;"	v
+supertab_close_preview	supertab.vim	/^    augroup supertab_close_preview$/;"	a
+test	delimitMate.vim	/^function! s:test() "{{{$/;"	f
+tlist_pyrex_settings	taglist.vim	/^let tlist_pyrex_settings='python;c:classe;m:memder;f:function'$/;"	v
+values	tablify.vim	/^    let values = newData[:]$/;"	v

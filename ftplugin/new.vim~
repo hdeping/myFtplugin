@@ -1,0 +1,43 @@
+" Vim global plugin for correcting typing mistakes
+"   2" Last Change:2000 Oct 15
+"     3" Maintainer:Bram Moolenaar <Bram@vim.org>
+"       4" License:This file is placed in the public domain.
+"         5
+"           6if exists("g:loaded_typecorr")
+"             7  finish
+"               8endif
+"                 9let g:loaded_typecorr = 1
+"                  10
+"                   11let s:save_cpo = &cpo
+"                    12set cpo&vim
+"                     13
+"                      14iabbrev teh the
+"                       15iabbrev otehr other
+"                        16iabbrev wnat want
+"                         17iabbrev synchronisation
+"                          18\ synchronization
+"                           19let s:count = 4
+"                            20
+"                             21if !hasmapto('<Plug>TypecorrAdd')
+"                              22  map <unique> <Leader>a  <Plug>TypecorrAdd
+"                               23endif
+"                                24noremap <unique> <script> <Plug>TypecorrAdd  <SID>Add
+"                                 25
+"                                  26noremenu <script> Plugin.Add\ Correction      <SID>Add
+"                                   27
+"                                    28noremap <SID>Add  :call <SID>Add(expand("<cword>"), 1)<CR>
+"                                     29
+"                                      30function s:Add(from, correct)
+"                                       31  let to = input("type the correction for " . a:from . ": ")
+"                                        32  exe ":iabbrev " . a:from . " " . to
+"                                         33  if a:correct | exe "normal viws\<C-R>\" \b\e" | endif
+"                                          34  let s:count = s:count + 1
+"                                           35 echo s:count . " corrections now"
+"                                            36endfunction
+"                                             37
+"                                              38if !exists(":Correct")
+"                                               39  command -nargs=1  Correct
+"                                               :call s:Add(<q-args>, 0)
+"                                                40endif
+"                                                 41
+"                                                  42let &cpo = s:save_cpo><++>)<++>"<++>"<++>)<++>"<++>"<++>"<++>"<++>><++>"<++>"<++>"<++>"<++>"<++>"<++>"<++>"<++>"<++>)<++>)<++>><++>"<++>><++>"<++>)<++>)<++>><++>><++>><++>><++>><++>><++>><++>><++>><++>><++>><++>'<++>><++>'<++>)<++>"<++>"<++>)<++>"<++>><++>"<++>"<++>"<++>
