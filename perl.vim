@@ -19,7 +19,7 @@ noremap <leader>r :! perl %<cr>
 
 inoremap <leader>x $ = <++><esc>6hi
 inoremap <leader>c @ = <++><esc>6hi
-inoremap <leader>k  => 
+inoremap <leader>v  => 
 "" define a subroutine
 inoremap <leader>f sub {<cr><++><cr>}<cr><++><esc>3kf{i
 "" define a / block 

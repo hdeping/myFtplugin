@@ -1,12 +1,19 @@
-
-"" do block
+""" run the fortran
+nnoremap <leader>r :! make<cr>
+""" do block
 inoremap <leader>d do <cr><++><cr>enddo !cycle ends<cr><++> <Esc>2kI    <esc>kA
 "" if block
 inoremap <leader>z if (  )then<cr><++><cr>endif ! if ends<cr><++><Esc>3kA<esc>5hi
-"" elseif block 
-inoremap <leader>b elseif (  )then<cr><++><cr><Esc>2kA<esc>5hi
-"" write block 
-inoremap <leader>j write(,*)<++><esc>0f(a
+" elseif block 
+inoremap <leader>b1 elseif (  )then<cr><++><cr><Esc>2kA<esc>5hi
+inoremap <leader>b2 else<cr>
+"" I/O block 
+inoremap <leader>j1 print *,
+inoremap <leader>j2 write(,*)<++><esc>0f(a
+inoremap <leader>j3 read(,*,iostat = ierror)<++><esc>0f(a
+"" open block
+inoremap <leader>o1  open(, file = filename)<cr>close(<++>)<esc>k0f,i
+inoremap <leader>o2  open(, file = filename,status = "old",iostat = ierror)<cr>close(<++>)<esc>k0f,i
 "" fold block
 inoremap <leader>g !{{{<cr>!}}}<esc>O
 "" openmp parallel block
@@ -24,8 +31,12 @@ vnoremap <leader>s  I!<esc><esc>
 nnoremap <leader>s  I!<esc>
 inoremap <leader>s  <esc>I!<esc>A
 inoremap <F12> ! fortran code by Deping Huang<cr>! 
-"" open block
-inoremap <leader>o  open(, file = filename)<cr><++><esc>kf,i
+""" output format block
+inoremap <leader>'  '()'<++><esc>0f(a
+""" main function
+inoremap <leader>m  program main<cr>implicit none<cr>end program main<esc>0dwO
+""" declaration
+inoremap <leader>x  :: 
 "" some abbreviations of the keywords in fortran
 inoreabbrev  qfu function
 inoreabbrev  qpa parameter
@@ -43,3 +54,9 @@ inoreabbrev  qim implicit none
 inoreabbrev  qrd call random_seed()
 inoreabbrev  qrn call random_number
 nnoremap <F2>       ggguG
+""" my own function
+"""  inoremap <leader>; <esc>:call cycle(getline('.'))<cr>
+"""  function !cycle(line)
+"""      echo "do ".a:line." = \r<++>\renddo ! ".a:line." ends here"
+"""  endfunction
+""" 

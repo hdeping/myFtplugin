@@ -1,4 +1,4 @@
-inoremap <leader>d n1=<cr>n2=<++><cr>for ((i = $n1; i <= $n2; i = i + 1))<cr>do<cr><++><cr>done<cr><++><esc>6kA
+inoremap <leader>d for i in {..<++>}<cr>do<cr><++><cr>done<cr><++><esc>4k0f{a
 imap <leader>z <Esc>$aif [ <++> ];then<cr><esc>2ki<c-j>
 vnoremap <F8> I#<esc><esc>
 nmap <leader>r :! sh %<cr>
