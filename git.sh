@@ -2,6 +2,5 @@
 #git init
 #git add README.md `find . -name "*f90"`
 #git commit -m "fortran code from 2014"
-git add *
 git commit
-git push -u plugin master
+git push 
