@@ -54,9 +54,3 @@ inoreabbrev  qim implicit none
 inoreabbrev  qrd call random_seed()
 inoreabbrev  qrn call random_number
 nnoremap <F2>       ggguG
-""" my own function
-"""  inoremap <leader>; <esc>:call cycle(getline('.'))<cr>
-"""  function !cycle(line)
-"""      echo "do ".a:line." = \r<++>\renddo ! ".a:line." ends here"
-"""  endfunction
-""" 
