@@ -5,23 +5,23 @@ inoremap <leader>d do <cr><++><cr>enddo !cycle ends<cr><++> <Esc>2kI    <esc>kA
 "" if block
 inoremap <leader>z if (  )then<cr><++><cr>endif ! if ends<cr><++><Esc>3kA<esc>5hi
 " elseif block 
-inoremap <leader>b1 elseif (  )then<cr><++><cr><Esc>2kA<esc>5hi
-inoremap <leader>b2 else<cr>
+inoremap <leader>bi elseif (  )then<cr><++><cr><Esc>2kA<esc>5hi
+inoremap <leader>be else<cr>
 "" I/O block 
-inoremap <leader>j1 print *,
-inoremap <leader>j2 write(,*)<++><esc>0f(a
-inoremap <leader>j3 read(,*,iostat = ierror)<++><esc>0f(a
+inoremap <leader>ja print *,
+inoremap <leader>jw write(,*)<++><esc>0f(a
+inoremap <leader>jr read(,*,iostat = ierror)<++><esc>0f(a
 "" open block
-inoremap <leader>o1  open(, file = filename)<cr>close(<++>)<esc>k0f,i
-inoremap <leader>o2  open(, file = filename,status = "old",iostat = ierror)<cr>close(<++>)<esc>k0f,i
+inoremap <leader>oa  open(, file = filename)<cr>close(<++>)<esc>k0f,i
+inoremap <leader>ob  open(, file = filename,status = "old",iostat = ierror)<cr>close(<++>)<esc>k0f,i
 "" fold block
 inoremap <leader>g !{{{<cr>!}}}<esc>O
 "" openmp parallel block
-inoremap <leader>1 !$omp parallel<cr>!$omp end parallel<esc>O   
+inoremap <leader>pp !$omp parallel<cr>!$omp end parallel<esc>O   
 "" openmp single block
-inoremap <leader>2 !$omp single<cr>!$omp end single<esc>O   
+inoremap <leader>pp !$omp single<cr>!$omp end single<esc>O   
 "" openmp do block
-inoremap <leader>3 !$omp do <cr><++><cr>!$omp end do<esc>2kA
+inoremap <leader>pd !$omp do <cr><++><cr>!$omp end do<esc>2kA
 "" note the current line
 nnoremap <F3> I!<esc>
 "" unnote the current line
