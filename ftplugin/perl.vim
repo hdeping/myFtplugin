@@ -26,6 +26,9 @@ inoremap <leader>f sub {<cr><++><cr>}<cr><++><esc>3kf{i
 inoremap <leader>/ //<esc>i
 "" define a hash
 inoremap <leader>h my % = (<cr><++> => <++><cr>);<cr><++><esc>3kA<esc>3hi
+inoremap <leader>or <esc>ciwopen file,"<<esc>pa.txt", or die $!;
+inoremap <leader>ow <esc>ciwopen file,"><esc>pa.txt", or die $!;
+inoremap <leader>oa <esc>ciwopen file,">><esc>pa.txt", or die $!;
 inoremap /0 $_[0] 
 inoremap /1 $_[1] 
 inoremap /2 $_[2] 

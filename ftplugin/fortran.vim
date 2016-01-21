@@ -12,12 +12,12 @@ inoremap <leader>ja print *,
 inoremap <leader>jw write(,*)<++><esc>0f(a
 inoremap <leader>jr read(,*,iostat = ierror)<++><esc>0f(a
 "" open block
-inoremap <leader>oa  open(, file = filename)<cr>close(<++>)<esc>k0f,i
-inoremap <leader>ob  open(, file = filename,status = "old",iostat = ierror)<cr>close(<++>)<esc>k0f,i
+inoremap <leader>oa  <esc>diwopen(<esc>pa, file = filename)<cr>close(<esc>pa)<esc>ko
+inoremap <leader>ob  <esc>diwopen(<esc>pa, file = filename,status = "old", iostat = ierror)<cr>close(<esc>pa)<esc>ko
 "" fold block,function and subroutine
 inoremap <leader>gg !{{{<cr>!}}}<esc>O
-inoremap <leader>gf !function {{{<cr>function <++>(<++>)<cr>integer,intent(in)   :: <++><cr>integer              :: <++><cr>end function <++><cr>!}}}<esc>0dwk.4kf{i
-inoremap <leader>gs !subroutine {{{<cr>subroutine <++>(<++>)<cr>integer,intent(in)   :: <++><cr>integer,intent(out)  :: <++><cr>end subroutine <++><cr>!}}}<esc>0dwk.4kf{i
+inoremap <leader>ff <esc>ciw!function <esc>pa{{{<cr>function <esc>pa()<cr>integer,intent(in)   :: <++><cr>integer              :: <++><cr>end function <esc>pa<cr>!}}}<esc>I<esc>3hdwk.3k0f)i
+inoremap <leader>fs <esc>ciw!subroutine <esc>pa{{{<cr>subroutine <esc>pa()<cr>integer,intent(in)   :: <++><cr>integer              :: <++><cr>end subroutine <esc>pa<cr>!}}}<esc>I<esc>3hdwk.3k0f)i
 "" openmp parallel block
 inoremap <leader>pp !$omp parallel<cr>!$omp end parallel<esc>O   
 "" openmp single block

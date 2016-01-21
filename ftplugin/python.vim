@@ -22,9 +22,16 @@ vnoremap <leader>c  I#<esc><esc>
 inoremap <leader>m #!/usr/bin/python<cr><cr><esc>i
 inoremap <leader>x ____<++><esc>5hi
 """ open block
-inoremap <leader>oa open("","<++>")<cr><++><esc>k0f"a
-inoremap <leader>or open("","<++>").read()<cr><++><esc>k0f"a
-inoremap <leader>oa open("","<++>").read().split()<cr><++><esc>k0f"a
+inoremap <leader>oa =<esc>i <esc>A open("","<++>")<cr><++><esc>k0f"a
+inoremap <leader>or =<esc>i <esc>A open("","<++>").read()<cr><++><esc>k0f"a
+inoremap <leader>os =<esc>i <esc>A open("","<++>").read().split()<cr><++><esc>k0f"a
+""" matplotlib
+inoremap <leader>gx <esc>I<esc>ld$aplt.xlabel('<esc>pa')<cr>
+inoremap <leader>gy <esc>I<esc>ld$aplt.ylabel('<esc>pa')<cr>
+inoremap <leader>ga <esc>I<esc>ld$aplt.axis([<esc>pa])<cr>
+inoremap <leader>gt <esc>I<esc>ld$aplt.title('<esc>pa')<cr>
+inoremap <leader>gs <esc>I<esc>ld$aplt.savefig('<esc>pa.png',dpi = 600)<cr>
+
 
 """ def block
 inoremap <leader>f  def :<cr><++><esc>k0f:i
@@ -38,3 +45,6 @@ inoreabbrev qs1  sys.argv[1]
 inoreabbrev qs2  sys.argv[2]
 inoreabbrev qs3  sys.argv[3]
 inoreabbrev qs4  sys.argv[4]
+inoreabbrev qma  matplotlib
+inoreabbrev qrl  readlines
+inoreabbrev qwl  writelines
